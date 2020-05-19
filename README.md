@@ -1,6 +1,8 @@
 # ONAMA - Ontology of Narratives of the Middle Ages
 ## Repository for the Ontology of Narratives of the Middle Ages
 
+This repository contains all version of the onama ontology.
+
 ## About the project
 
 The project “ONAMA” (“Ontology of Narratives of the Middle Ages”) deals with the creation of a computer-based system of relations between medieval narratological entities in texts and images.
