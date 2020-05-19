@@ -1,7 +1,7 @@
 # ONAMA - Ontology of Narratives of the Middle Ages
 ## Repository for the Ontology of Narratives of the Middle Ages
 
-This repository contains all version of the onama ontology.
+This repository contains all versions of the onama ontology.
 
 ## About the project
 
@@ -13,4 +13,4 @@ By connecting the data on the depicted elements and the thesauri of REALonline a
 
 Users can simultaneously access detailed annotations on narratives in images and texts via the ONAMA frontend. This facilitates the identification of references or differences within the widely diversified corpora to medieval sources in the two databases. The narrative patterns in texts and images are annotated and visualized according to contemporary digital standards, which will provide a more solid empirical evaluation of the material. All data generated within ONAMA will be made available to the scholarly and scientific community under the Creative Commons CC BY-NC-SA license and can be used for example as a basis for queries about narratives in other digital corpora.
 
-For more, visit http://onama.sbg.ac.at/.
+For more information, visit http://onama.sbg.ac.at/.
