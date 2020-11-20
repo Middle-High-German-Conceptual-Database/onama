@@ -1,0 +1,3262 @@
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+<link href="resources/primer.css" media="screen" rel="stylesheet"/>
+<link href="resources/rec.css" media="screen" rel="stylesheet"/>
+<link href="resources/extra.css" media="screen" rel="stylesheet"/>
+<link href="resources/owl.css" media="screen" rel="stylesheet"/>
+</head>
+<body>
+<div class="container">
+<div class="head">
+
+
+<h2>Veröffentlichung 05.10.2020</h2>
+<dl>
+<dt>Diese Version:</dt>
+<dd><a href="http://onama.sbg.ac.at/ontology/1.5">http://onama.sbg.ac.at/ontology/1.5</a></dd>
+<dt>Neueste Version:</dt>
+<dd><a href="http://onama.sbg.ac.at/ontology">http://onama.sbg.ac.at/ontology</a></dd>
+<dt>Revision:</dt>
+<dd>1.5</dd>
+<dt>AutorInnen:</dt>
+<dd><a href="https://www.imareal.sbg.ac.at/team/miriam-landkammer/">Miriam Landkammer</a>, (<a href="https://www.uni-salzburg.at/">Universität Salzburg</a>)</dd>
+<dd><a href="https://orcid.org/0000-0001-8618-0185">Peter Hinkelmanns</a>, (<a href="https://www.uni-salzburg.at/">Universität Salzburg</a>)</dd>
+<dd><a href="https://orcid.org/0000-0001-9214-8915">Manuel Schwembacher</a>, (<a href="https://www.uni-salzburg.at/">Universität Salzburg</a>)</dd>
+<dd><a href="https://orcid.org/0000-0001-9310-9029">Katharina Zeppezauer-Wachauer</a>, (<a href="https://www.uni-salzburg.at/">Universität Salzburg</a>)</dd>
+<dd><a href="https://www.imareal.sbg.ac.at/team/isabella-nicka/">Isabella Nicka</a>, (<a href="https://www.uni-salzburg.at/">Universität Salzburg</a>)</dd>
+<dt>Serialisierungen herunterladen:</dt>
+<dd>
+<span><a href="https://github.com/Middle-High-German-Conceptual-Database/onama/releases/download/1.5/onama_1.5.owl" target="_blank"><img alt="RDF/XML" src="https://img.shields.io/badge/Format-RDF/XML-blue.svg"/></a> </span>
+</dd>
+<dt>Repository:</dt>
+<dd>
+<span><a href="https://github.com/Middle-High-German-Conceptual-Database/onama" target="_blank"><img alt="RDF/XML" src="https://img.shields.io/badge/Fork_on-GitHub-blue.svg"/></a> </span>
+</dd>
+<dt>Zitiervorschlag:</dt>
+<dd>Landkammer, Miriam; Hinkelmanns, Peter; Schwembacher, Manuel; Zeppezauer-Wachauer, Katharina; Nicka,
+               Isabella (2020): Ontologie der Narrative des Mittelalters. Universität Salzburg. Salzburg. DOI
+               10.5281/zenodo.4220348, aktualisiert am 05.10.2020.</dd>
+<dt>DOI:</dt>
+<dd><a href="http://dx.doi.org/10.5281/zenodo.4220348"><img alt="10.5281/zenodo.4220348" src="https://img.shields.io/badge/DOI-10.5281/zenodo.4220348-blue.svg"/></a></dd>
+</dl>
+<hr/>
+</div>
+<div class="status">
+<div>
+<span>ONAMA Ontologie Version 1.5</span>
+</div>
+</div>
+<div id="abstract">
+<div id="abstract">
+<h2>Abstract</h2>
+<span class="markdown">
+<p><a href="http://onama.sbg.ac.at" target="_blank">ONAMA – Ontologie der Narrative des
+                     Mittelalters</a>
+                  ermöglicht den systematischen Vergleich von Strukturen und Bausteinen vieler Narrative in
+                  mittelalterlicher Literatur
+                  und Bildern.</p>
+</span>
+</div>
+</div>
+<div id="toc"></div>
+<!--INTRODUCTION SECTION-->
+<div id="introduction">
+<div id="introduction">
+<h2 class="list" id="intro">Einführung </h2>
+<span class="markdown">
+<p>Diese Ontologie bietet ein Modell für eine medienübergreifende Beschreibung von Handlungen,
+                  Akteuren, Schauplätzen und
+                  zeitlichen Strukturen. Neben den konstituierenden Grundelementen transmedialer „Erzählkerne“
+                  erfassen diese
+                  Beschreibungen die jeweiligen textlichen und bildlichen Umsetzungen im Detail und gehen damit
+                  über die reine „Handlung“
+                  eines Erzähltexts oder Bilderzyklus hinaus. ONAMA erlaubt es, Muster und Besonderheiten in den
+                  Strukturen von Erzählungen zu
+                  identifizieren, die dann auf ihre zugrundeliegenden Ursachen und Funktionen hin untersucht werden
+                  können. </p>
+<p>Mit ONAMA können Bild- und Textquellen so annotiert werden, dass die generierten Daten Aufschluss
+                  über die Genese und Tradierung von Erzählkernen, Figurenkonstellationen, Handlungsmustern
+                  etc. im jeweiligen Medium und in
+                  medienübergreifenden Zusammenhängen geben.
+               </p>
+<p>Die Ontologie wurde im Rahmen des Projekts <i>ONAMA - Ontologie der Narrative des Mittelalters</i>
+                  entwickelt,
+                  welches als interdisziplinäre Kooperation zwischen der <a href="http://www.mhdbdb.sbg.ac.at/" target="_blank">Mittelhochdeutschen Begriffsdatenbank (MHDBDB)</a> und dem <a href="https://www.imareal.sbg.ac.at/" target="_blank">Institut für Realienkunde des
+                     Mittelalters und der frühen Neuzeit
+                     (IMAREAL)</a> durchgeführt wurde. Diese beiden Institutionen gehören dem <a href="https://uni-salzburg.at/index.php?id=60" target="_blank">Interdisziplinären Zentrum
+                     für Mittelalter und Frühneuzeit (IZMF)</a> der <a href="https://uni-salzburg.at/" target="_blank">Universität Salzburg</a> an. Das Projekt wird aus Mitteln des go!digital
+                  Programms der <a href="https://www.oeaw.ac.at/en/austrian-academy-of-sciences/" target="_blank">Österreichischen Akademie der Wissenschaften</a> finanziert.</p>
+</span>
+<div id="namespacedeclarations">
+<h3 class="list" id="ns">Namespace-Deklaration</h3>
+<div align="center" id="ns">
+<table>
+<caption> <a href="#ns"> Tabelle 1</a>: Namespaces in diesem Dokument </caption>
+<tbody>
+<tr>
+<td><b>onama</b></td>
+<td>&lt;http://onama.sbg.ac.at/ontology#&gt;</td>
+</tr>
+<tr>
+<td><b>owl</b></td>
+<td>&lt;http://www.w3.org/2002/07/owl&gt;</td>
+</tr>
+<tr>
+<td><b>xsd</b></td>
+<td>&lt;http://www.w3.org/2001/XMLSchema&gt;</td>
+</tr>
+<tr>
+<td><b>rdfs</b></td>
+<td>&lt;http://www.w3.org/2000/01/rdf-schema&gt;</td>
+</tr>
+<tr>
+<td><b>core</b></td>
+<td>&lt;http://www.w3.org/2004/02/skos/core&gt;</td>
+</tr>
+<tr>
+<td><b>rdf</b></td>
+<td>&lt;http://www.w3.org/1999/02/22-rdf-syntax-ns&gt;</td>
+</tr>
+<tr>
+<td><b>terms</b></td>
+<td>&lt;http://purl.org/dc/terms&gt;</td>
+</tr>
+<tr>
+<td><b>cidoc-crm</b></td>
+<td>&lt;http://www.cidoc-crm.org/cidoc-crm&gt;</td>
+</tr>
+<tr>
+<td><b>vann</b></td>
+<td>&lt;http://purl.org/vocab/vann&gt;</td>
+</tr>
+<tr>
+<td><b>foaf</b></td>
+<td>&lt;http://xmlns.com/foaf/0.1&gt;</td>
+</tr>
+<tr>
+<td><b>dc</b></td>
+<td>&lt;http://purl.org/dc/elements/1.1&gt;</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+<!--OVERVIEW SECTION-->
+<div id="overview">
+<div id="overview">
+<h2 class="list" id="overv">Überblick 
+</h2>
+<h3>Zweck</h3>
+<p>ONAMA – Ontologie der Narrative des Mittelalters – ermöglicht einen systematischen
+               Vergleich der Strukturen und Bausteine von Erzählungen in Literatur und Bild. Mit dem
+               Modell lassen sich die Erzählstrategien von Bildern und Texten annotieren und damit eine Grundlage
+               für ihre nachfolgende
+               Analyse schaffen. Konzipiert für die detailgenaue Erschließung und Verfügbarmachung
+               mittelalterlicher Erzählungen im Semantic
+               Web, kann ONAMA auch an literarische oder bildliche Erzählungen aus anderen Epochen angepasst
+               werden.</p>
+<h3>Modell-Überblick</h3>
+<p>Ein <a href="#Narrative">Narrativ</a> ist in ONAMA definiert als eine einzelne Figurenaktivität, ein
+               Ereignis, eine Zustandsänderung.
+               Dieses Kernelement von ONAMA wird entweder als abstraktes, transmediales <a href="#Concept">Konzept</a>
+               oder als <a href="#Realisation">Realisierung</a> eines Konzepts in einem konkreten Text oder einem
+               spezifischen Kunstwerk erfasst. Jedem Narrativ liegt eine <a href="#Action">Handlung</a> zugrunde. <a href="#Actor">Akteure</a>, <a href="#PersistentItem">Objekte</a>, <a href="#Place">Orte</a> und <a href="#TemporalEntity">zeitliche Entitäten</a> werden über hierarchisch geordnete
+               semantische Rollen mit den Narrativen verbunden.
+               <a href="#SemanticRole">Semantische Rollen</a> sind ein Begriff aus der Sprachwissenschaft; sie legen
+               nahe, welche Funktion eine Entität in einem Narrativ einnimmt. Darüber hinaus können
+               Entitäten allgemeine oder temporäre <a href="#EntityFunction">Entitätsfunktionen</a>
+               zugewiesen werden (z.B. "Held", "Gegner", "Talisman").
+               Während auf der Ebene der Narrativ-Realisierungen chronologische Ordnungen festgelegt werden, werden
+               Narrativ-Konzepte über
+               die Properties <a href="#broader"><i>umfassender</i></a> und <a href="#narrower"><i>enger</i></a> in
+               Teil-Ganzes-Beziehungen gesetzt.
+               ONAMA importiert mehrere Entitäten aus dem <a href="http://www.cidoc-crm.org/" target="_blank">CIDOC
+                  Conceptual Reference Model</a>. ONAMA enthält Properties, um erstellte Instanzen mit
+               Identifikatoren aus <a href="https://www.wikidata.org/wiki/Wikidata:Main_Page" target="_blank">Wikidata</a>, der <a href="https://www.dnb.de/DE/Professionell/Standardisierung/GND/gnd_node.html" target="_blank">Gemeinsamen Normdatei (GND)</a> und <a href="http://www.iconclass.org/" target="_blank">ICONCLASS</a> anzureichern.</p>
+<p>
+               Diese Ontologie hat die folgenden Klassen und Properties:</p>
+<h4>Klassen</h4>
+<ul class="hlist">
+<li>
+<a href="#Actor" title="http://onama.sbg.ac.at/ontology#Actor">Akteur</a>
+</li>
+<li>
+<a href="#Thing" title="http://onama.sbg.ac.at/ontology#Thing">Ding</a>
+</li>
+<li>
+<a href="#EntityFunction" title="http://onama.sbg.ac.at/ontology#EntityFunction">Entitätsfunktion</a>
+</li>
+<li>
+<a href="#Action" title="http://onama.sbg.ac.at/ontology#Action">Handlung</a>
+</li>
+<li>
+<a href="#Concept" title="http://onama.sbg.ac.at/ontology#Concept">Konzept</a>
+</li>
+<li>
+<a href="#Group" title="http://onama.sbg.ac.at/ontology#Group">Menschliche Gruppe</a>
+</li>
+<li>
+<a href="#MythicalBeing" title="http://onama.sbg.ac.at/ontology#MythicalBeing">Mythisches Wesen;
+                     Gottheit;
+                     Fabelwesen</a>
+</li>
+<li>
+<a href="#Narrative" title="http://onama.sbg.ac.at/ontology#Narrative">Narrativ</a>
+</li>
+<li>
+<a href="#Place" title="http://onama.sbg.ac.at/ontology#Place">Ort</a>
+</li>
+<li>
+<a href="#PersistentItem" title="http://onama.sbg.ac.at/ontology#PersistentItem">Persistentes Objekt
+                     (Seiendes)</a>
+</li>
+<li>
+<a href="#Person" title="http://onama.sbg.ac.at/ontology#Person">Person</a>
+</li>
+<li>
+<a href="#Realisation" title="http://onama.sbg.ac.at/ontology#Realisation">Realisierung</a>
+</li>
+<li>
+<a href="#AgentRole" title="http://onama.sbg.ac.at/ontology#AgentRole">Rolle Agens</a>
+</li>
+<li>
+<a href="#ActantRole" title="http://onama.sbg.ac.at/ontology#ActantRole">Rolle Aktant</a>
+</li>
+<li>
+<a href="#BenefactiveRole" title="http://onama.sbg.ac.at/ontology#BenefactiveRole">Rolle
+                     Benefaktiv</a>
+</li>
+<li>
+<a href="#PossessorRole" title="http://onama.sbg.ac.at/ontology#PossessorRole">Rolle Besitzer/in</a>
+</li>
+<li>
+<a href="#UndergoerRole" title="http://onama.sbg.ac.at/ontology#UndergoerRole">Rolle Betroffene/r</a>
+</li>
+<li>
+<a href="#InstrumentRole" title="http://onama.sbg.ac.at/ontology#InstrumentRole">Rolle Instrument</a>
+</li>
+<li>
+<a href="#Co-AgentRole" title="http://onama.sbg.ac.at/ontology#Co-AgentRole">Rolle Ko-Agens</a>
+</li>
+<li>
+<a href="#LocalisationRole" title="http://onama.sbg.ac.at/ontology#LocalisationRole">Rolle
+                     Lokalisierung</a>
+</li>
+<li>
+<a href="#ModeRole" title="http://onama.sbg.ac.at/ontology#ModeRole">Rolle Modus</a>
+</li>
+<li>
+<a href="#PlaceRole" title="http://onama.sbg.ac.at/ontology#PlaceRole">Rolle Ort</a>
+</li>
+<li>
+<a href="#PatientRole" title="http://onama.sbg.ac.at/ontology#PatientRole">Rolle Patiens</a>
+</li>
+<li>
+<a href="#PredicativeRole" title="http://onama.sbg.ac.at/ontology#PredicativeRole">Rolle
+                     Prädikativ</a>
+</li>
+<li>
+<a href="#SourceRole" title="http://onama.sbg.ac.at/ontology#SourceRole">Rolle Quelle</a>
+</li>
+<li>
+<a href="#RecipientRole" title="http://onama.sbg.ac.at/ontology#RecipientRole">Rolle Rezipient/in</a>
+</li>
+<li>
+<a href="#StimulusRole" title="http://onama.sbg.ac.at/ontology#StimulusRole">Rolle Stimulus</a>
+</li>
+<li>
+<a href="#ParticipatorRole" title="http://onama.sbg.ac.at/ontology#ParticipatorRole">Rolle
+                     Teilnehmende/r</a>
+</li>
+<li>
+<a href="#ThemeRole" title="http://onama.sbg.ac.at/ontology#ThemeRole">Rolle Thema</a>
+</li>
+<li>
+<a href="#CauserRole" title="http://onama.sbg.ac.at/ontology#CauserRole">Rolle Verursacher/in</a>
+</li>
+<li>
+<a href="#ExperiencerRole" title="http://onama.sbg.ac.at/ontology#ExperiencerRole">Rolle
+                     Wahrnehmende/r</a>
+</li>
+<li>
+<a href="#TemporalityRole" title="http://onama.sbg.ac.at/ontology#TemporalityRole">Rolle
+                     Zeitlichkeit</a>
+</li>
+<li>
+<a href="#WitnessRole" title="http://onama.sbg.ac.at/ontology#WitnessRole">Rolle Zeuge/Zeugin</a>
+</li>
+<li>
+<a href="#GoalRole" title="http://onama.sbg.ac.at/ontology#GoalRole">Rolle Ziel</a>
+</li>
+<li>
+<a href="#Collection" title="http://onama.sbg.ac.at/ontology#Collection">Sammlung</a>
+</li>
+<li>
+<a href="#SemanticRole" title="http://onama.sbg.ac.at/ontology#SemanticRole">Semantische Rolle</a>
+</li>
+<li>
+<a href="#TextPassage" title="http://onama.sbg.ac.at/ontology#TextPassage">Textpassage</a>
+</li>
+<li>
+<a href="#TextualRealisation" title="http://onama.sbg.ac.at/ontology#TextualRealisation">Textuelle
+                     Realisierung</a>
+</li>
+<li>
+<a href="#Animal" title="http://onama.sbg.ac.at/ontology#Animal">Tier</a>
+</li>
+<li>
+<a href="#Verb" title="http://onama.sbg.ac.at/ontology#Verb">Verb</a>
+</li>
+<li>
+<a href="#VisualRealisation" title="http://onama.sbg.ac.at/ontology#VisualRealisation">Visuelle
+                     Realisierung</a>
+</li>
+<li>
+<a href="#TemporalEntity" title="http://onama.sbg.ac.at/ontology#TemporalEntity">Zeitliche
+                     Entität
+                     (Geschehendes)</a>
+</li>
+<li>
+<a href="#TimeSpan" title="http://onama.sbg.ac.at/ontology#TimeSpan">Zeitspanne</a>
+</li>
+</ul>
+<h4>Object Properties</h4>
+<ul class="hlist">
+<li>
+<a href="#narrower" title="http://onama.sbg.ac.at/ontology#narrower">enger</a>
+</li>
+<li>
+<a href="#firstInCollection" title="http://onama.sbg.ac.at/ontology#firstInCollection">erstes Element
+                     in einer
+                     Sammlung</a>
+</li>
+<li>
+<a href="#hasActor" title="http://onama.sbg.ac.at/ontology#hasActor">hat Akteur</a>
+</li>
+<li>
+<a href="#hasGeneralEntityFunction" title="http://onama.sbg.ac.at/ontology#hasGeneralEntityFunction">hat
+                     allgemeine Entitätsfunktion</a>
+</li>
+<li>
+<a href="#hasThing" title="http://onama.sbg.ac.at/ontology#hasThing">hat Ding</a>
+</li>
+<li>
+<a href="#hasEntityFunction" title="http://onama.sbg.ac.at/ontology#hasEntityFunction">hat
+                     Entitätsfunktion</a>
+</li>
+<li>
+<a href="#hasSupplementaryConcept" title="http://onama.sbg.ac.at/ontology#hasSupplementaryConcept">hat
+                     ergänzendes Konzept</a>
+</li>
+<li>
+<a href="#hasGNDEquivalent" title="http://onama.sbg.ac.at/ontology#hasGNDEquivalent">hat GND
+                     Äquivalent</a>
+</li>
+<li>
+<a href="#hasAction" title="http://onama.sbg.ac.at/ontology#hasAction">hat Handlung</a>
+</li>
+<li>
+<a href="#hasIconClassEquivalent" title="http://onama.sbg.ac.at/ontology#hasIconClassEquivalent">hat
+                     IconClass
+                     Äquivalent</a>
+</li>
+<li>
+<a href="#hasNarrative" title="http://onama.sbg.ac.at/ontology#hasNarrative">hat Narrativ</a>
+</li>
+<li>
+<a href="#hasPlace" title="http://onama.sbg.ac.at/ontology#hasPlace">hat Ort</a>
+</li>
+<li>
+<a href="#hasSemanticRole" title="http://onama.sbg.ac.at/ontology#hasSemanticRole">hat semantische
+                     Rolle</a>
+</li>
+<li>
+<a href="#hasTextPassage" title="http://onama.sbg.ac.at/ontology#hasTextPassage">hat Textpassage</a>
+</li>
+<li>
+<a href="#hasVerb" title="http://onama.sbg.ac.at/ontology#hasVerb">hat Verb</a>
+</li>
+<li>
+<a href="#hasRelatedIconClassEntry" title="http://onama.sbg.ac.at/ontology#hasRelatedIconClassEntry">hat
+                     verwandten IconClass Eintrag</a>
+</li>
+<li>
+<a href="#hasRelatedWikiDataEntry" title="http://onama.sbg.ac.at/ontology#hasRelatedWikiDataEntry">hat
+                     verwandten WikiData Eintrag</a>
+</li>
+<li>
+<a href="#hasWikiDataEquivalent" title="http://onama.sbg.ac.at/ontology#hasWikiDataEquivalent">hat
+                     WikiData
+                     Äquivalent</a>
+</li>
+<li>
+<a href="#hasTemporalEntity" title="http://onama.sbg.ac.at/ontology#hasTemporalEntity">hat zeitliche
+                     Entität
+                     (Geschehendes)</a>
+</li>
+<li>
+<a href="#hasTemporaryEntityFunction" title="http://onama.sbg.ac.at/ontology#hasTemporaryEntityFunction">hat
+                     zeitweilige Entitätsfunktion</a>
+</li>
+<li>
+<a href="#isRealisedAsSupplementaryNarrativeBy" title="http://onama.sbg.ac.at/ontology#isRealisedAsSupplementaryNarrativeBy">ist realisiert als
+                     ergänzendes
+                     Narrativ durch</a>
+</li>
+<li>
+<a href="#isRealisedBy" title="http://onama.sbg.ac.at/ontology#isRealisedBy">ist realisiert durch</a>
+</li>
+<li>
+<a href="#nextFabula" title="http://onama.sbg.ac.at/ontology#nextFabula">nächste Fabula</a>
+</li>
+<li>
+<a href="#next" title="http://onama.sbg.ac.at/ontology#next">nächstes</a>
+</li>
+<li>
+<a href="#nextSyuzhet" title="http://onama.sbg.ac.at/ontology#nextSyuzhet">nächstes Syuzhet</a>
+</li>
+<li>
+<a href="#occursSimultaneously" title="http://onama.sbg.ac.at/ontology#occursSimultaneously">passiert
+                     gleichzeitig</a>
+</li>
+<li>
+<a href="#realises" title="http://onama.sbg.ac.at/ontology#realises">realisiert</a>
+</li>
+<li>
+<a href="#realisesAsSupplementaryNarrative" title="http://onama.sbg.ac.at/ontology#realisesAsSupplementaryNarrative">realisiert als
+                     ergänzendes
+                     Narrativ</a>
+</li>
+<li>
+<a href="#isRelatedTo" title="http://onama.sbg.ac.at/ontology#isRelatedTo">steht in Beziehung mit</a>
+</li>
+<li>
+<a href="#partOfCollection" title="http://onama.sbg.ac.at/ontology#partOfCollection">Teil einer
+                     Sammlung</a>
+</li>
+<li>
+<a href="#narrowerTransitive" title="http://onama.sbg.ac.at/ontology#narrowerTransitive">transitiv
+                     enger</a>
+</li>
+<li>
+<a href="#broaderTransitive" title="http://onama.sbg.ac.at/ontology#broaderTransitive">transitiv
+                     umfassender</a>
+</li>
+<li>
+<a href="#broader" title="http://onama.sbg.ac.at/ontology#broader">umfassender</a>
+</li>
+<li>
+<a href="#previous" title="http://onama.sbg.ac.at/ontology#previous">vorhergehend</a>
+</li>
+<li>
+<a href="#previousFabula" title="http://onama.sbg.ac.at/ontology#previousFabula">vorhergehende
+                     Fabula</a>
+</li>
+<li>
+<a href="#previousSyuzhet" title="http://onama.sbg.ac.at/ontology#previousSyuzhet">vorhergehendes
+                     Syuzhet</a>
+</li>
+</ul>
+<h4>Data Properties</h4>
+<ul class="hlist">
+<li>
+<a href="#depictedIn" title="http://onama.sbg.ac.at/ontology#depictedIn">abgebildet in</a>
+</li>
+<li>
+<a href="#toToken" title="http://onama.sbg.ac.at/ontology#toToken">bis Token</a>
+</li>
+<li>
+<a href="#http://www.w3.org/2004/02/skos/core#closeMatch" title="http://www.w3.org/2004/02/skos/core#closeMatch">Entsprechung mit großer Ähnlichkeit</a>
+</li>
+<li>
+<a href="#hasSigil" title="http://onama.sbg.ac.at/ontology#hasSigil">hat MHDBDB Sigle</a>
+</li>
+<li>
+<a href="#hasSceneNode" title="http://onama.sbg.ac.at/ontology#hasSceneNode">hat REALonline
+                     Szenengraphknoten</a>
+</li>
+<li>
+<a href="#hasRoWorkURL" title="http://onama.sbg.ac.at/ontology#hasRoWorkURL">hat Realonline Werk
+                     URL</a>
+</li>
+<li>
+<a href="#hasUrl" title="http://onama.sbg.ac.at/ontology#hasUrl">hat Url</a>
+</li>
+<li>
+<a href="#hasMhdbdbSigilURL" title="http://onama.sbg.ac.at/ontology#hasMhdbdbSigilURL">hat URL auf
+                     MHDBDB
+                     Sigle</a>
+</li>
+<li>
+<a href="#fromToken" title="http://onama.sbg.ac.at/ontology#fromToken">von Token</a>
+</li>
+</ul>
+</div>
+</div>
+<!--DESCRIPTION SECTION-->
+<div id="description">
+<div id="description">
+<h2 class="list" id="desc">Beschreibung</h2>
+<span class="markdown">
+<img src="http://onama.sbg.ac.at/wp-content/uploads/2020/10/broader_next_supplementary.png" width="100%"/>
+<p>
+                  Das Diagramm zeigt die Teil-Ganzes-Beziehungen zwischen den <a href="#Concept">Konzepten</a> sowie die
+                  chronologische Abfolge, die auf der Ebene der
+                  <a href="#Realisation">Realisierungen</a> erschlossen wird. Insbesondere bei der Erschließung von
+                  Bilderzählungen muss ein Mittel zur Gewichtung von Narrativen
+                  eingeführt werden: Nebenhandlungen, z.B. zusätzliche Szenen, die im Hintergrund eines Bildes
+                  gezeigt werden, werden mit
+                  Hilfe der Properties <a href="#hasSupplementaryConcept">has supplementary
+                     concept</a> und <a href="#realisesAsSupplementaryNarrative">realises as supplementary narrative</a>
+                  erfasst.
+               </p>
+<img src="http://onama.sbg.ac.at/wp-content/uploads/2020/10/BriseidaBesuchtDiomedesV2.png" width="100%"/>
+<p>
+                  An einem Beispiel aus mittelalterlichen Adaptionen des Trojanischen Krieges zeigt das Diagramm, wie
+                  <a href="#Concept">Konzepte</a> und <a href="#Realisation">Realisierungen</a>
+                  mit ONAMA erfasst werden. Die <a href="#VisualRealisation">visuelle Realisierung</a> aus dem Codex
+                  2773 der Österreichischen Nationalbibliothek ist in der
+                  Datenbank REALonline unter der Nummer <a href="https://realonline.imareal.sbg.ac.at/detail/nr-006455/" target="_blank">006455</a> zu finden.
+               </p>
+<img src="http://onama.sbg.ac.at/wp-content/uploads/2020/10/EntityFunction.png" width="100%"/>
+<p>
+                  Akteure oder Dinge können narrative Funktionen übernehmen, die allgemein oder nur in einer
+                  bestimmten Situation gelten.
+                  <a href="#EntityFunction">Entitätsfunktionen</a> sind daher entweder direkt mit
+                  einem <a href="#Actor">Akteur</a>/<a href="#Thing">Ding</a> oder mit dem semantischen Rollenknoten
+                  verbunden,
+                  der zwischen einem Narrativ und einem an dem Narrativ beteiligten Akteur/Ding liegt.
+               </p>
+</span>
+</div>
+</div>
+<!--CROSSREF SECTION-->
+<div id="crossref">
+<h2 class="list" id="crossreference">Klassen, Properties und Data-Properties </h2>
+<p>Dieser Abschnitt enthält Einzelheiten zu jeder Klasse und Property, die von Ontologie der Narrative des
+            Mittelalters
+            definiert werden:</p>
+<div id="classes">
+<h3 class="list" id="classes-headline">Klassen</h3>
+<ul class="hlist">
+<li>
+<a href="#Actor" title="http://onama.sbg.ac.at/ontology#Actor">Akteur</a>
+</li>
+<li>
+<a href="#Thing" title="http://onama.sbg.ac.at/ontology#Thing">Ding</a>
+</li>
+<li>
+<a href="#EntityFunction" title="http://onama.sbg.ac.at/ontology#EntityFunction">Entitätsfunktion</a>
+</li>
+<li>
+<a href="#Action" title="http://onama.sbg.ac.at/ontology#Action">Handlung</a>
+</li>
+<li>
+<a href="#Concept" title="http://onama.sbg.ac.at/ontology#Concept">Konzept</a>
+</li>
+<li>
+<a href="#Group" title="http://onama.sbg.ac.at/ontology#Group">Menschliche Gruppe</a>
+</li>
+<li>
+<a href="#MythicalBeing" title="http://onama.sbg.ac.at/ontology#MythicalBeing">Mythisches Wesen;
+                     Gottheit; Fabelwesen</a>
+</li>
+<li>
+<a href="#Narrative" title="http://onama.sbg.ac.at/ontology#Narrative">Narrativ</a>
+</li>
+<li>
+<a href="#Place" title="http://onama.sbg.ac.at/ontology#Place">Ort</a>
+</li>
+<li>
+<a href="#PersistentItem" title="http://onama.sbg.ac.at/ontology#PersistentItem">Persistentes Objekt
+                     (Seiendes)</a>
+</li>
+<li>
+<a href="#Person" title="http://onama.sbg.ac.at/ontology#Person">Person</a>
+</li>
+<li>
+<a href="#Realisation" title="http://onama.sbg.ac.at/ontology#Realisation">Realisierung</a>
+</li>
+<li>
+<a href="#AgentRole" title="http://onama.sbg.ac.at/ontology#AgentRole">Rolle Agens</a>
+</li>
+<li>
+<a href="#ActantRole" title="http://onama.sbg.ac.at/ontology#ActantRole">Rolle Aktant</a>
+</li>
+<li>
+<a href="#BenefactiveRole" title="http://onama.sbg.ac.at/ontology#BenefactiveRole">Rolle
+                     Benefaktiv</a>
+</li>
+<li>
+<a href="#PossessorRole" title="http://onama.sbg.ac.at/ontology#PossessorRole">Rolle Besitzer/in</a>
+</li>
+<li>
+<a href="#UndergoerRole" title="http://onama.sbg.ac.at/ontology#UndergoerRole">Rolle Betroffene/r</a>
+</li>
+<li>
+<a href="#InstrumentRole" title="http://onama.sbg.ac.at/ontology#InstrumentRole">Rolle Instrument</a>
+</li>
+<li>
+<a href="#Co-AgentRole" title="http://onama.sbg.ac.at/ontology#Co-AgentRole">Rolle Ko-Agens</a>
+</li>
+<li>
+<a href="#LocalisationRole" title="http://onama.sbg.ac.at/ontology#LocalisationRole">Rolle
+                     Lokalisierung</a>
+</li>
+<li>
+<a href="#ModeRole" title="http://onama.sbg.ac.at/ontology#ModeRole">Rolle Modus</a>
+</li>
+<li>
+<a href="#PlaceRole" title="http://onama.sbg.ac.at/ontology#PlaceRole">Rolle Ort</a>
+</li>
+<li>
+<a href="#PatientRole" title="http://onama.sbg.ac.at/ontology#PatientRole">Rolle Patiens</a>
+</li>
+<li>
+<a href="#PredicativeRole" title="http://onama.sbg.ac.at/ontology#PredicativeRole">Rolle
+                     Prädikativ</a>
+</li>
+<li>
+<a href="#SourceRole" title="http://onama.sbg.ac.at/ontology#SourceRole">Rolle Quelle</a>
+</li>
+<li>
+<a href="#RecipientRole" title="http://onama.sbg.ac.at/ontology#RecipientRole">Rolle Rezipient/in</a>
+</li>
+<li>
+<a href="#StimulusRole" title="http://onama.sbg.ac.at/ontology#StimulusRole">Rolle Stimulus</a>
+</li>
+<li>
+<a href="#ParticipatorRole" title="http://onama.sbg.ac.at/ontology#ParticipatorRole">Rolle
+                     Teilnehmende/r</a>
+</li>
+<li>
+<a href="#ThemeRole" title="http://onama.sbg.ac.at/ontology#ThemeRole">Rolle Thema</a>
+</li>
+<li>
+<a href="#CauserRole" title="http://onama.sbg.ac.at/ontology#CauserRole">Rolle Verursacher/in</a>
+</li>
+<li>
+<a href="#ExperiencerRole" title="http://onama.sbg.ac.at/ontology#ExperiencerRole">Rolle
+                     Wahrnehmende/r</a>
+</li>
+<li>
+<a href="#TemporalityRole" title="http://onama.sbg.ac.at/ontology#TemporalityRole">Rolle
+                     Zeitlichkeit</a>
+</li>
+<li>
+<a href="#WitnessRole" title="http://onama.sbg.ac.at/ontology#WitnessRole">Rolle Zeuge/Zeugin</a>
+</li>
+<li>
+<a href="#GoalRole" title="http://onama.sbg.ac.at/ontology#GoalRole">Rolle Ziel</a>
+</li>
+<li>
+<a href="#Collection" title="http://onama.sbg.ac.at/ontology#Collection">Sammlung</a>
+</li>
+<li>
+<a href="#SemanticRole" title="http://onama.sbg.ac.at/ontology#SemanticRole">Semantische Rolle</a>
+</li>
+<li>
+<a href="#TextPassage" title="http://onama.sbg.ac.at/ontology#TextPassage">Textpassage</a>
+</li>
+<li>
+<a href="#TextualRealisation" title="http://onama.sbg.ac.at/ontology#TextualRealisation">Textuelle
+                     Realisierung</a>
+</li>
+<li>
+<a href="#Animal" title="http://onama.sbg.ac.at/ontology#Animal">Tier</a>
+</li>
+<li>
+<a href="#Verb" title="http://onama.sbg.ac.at/ontology#Verb">Verb</a>
+</li>
+<li>
+<a href="#VisualRealisation" title="http://onama.sbg.ac.at/ontology#VisualRealisation">Visuelle
+                     Realisierung</a>
+</li>
+<li>
+<a href="#TemporalEntity" title="http://onama.sbg.ac.at/ontology#TemporalEntity">Zeitliche Entität
+                     (Geschehendes)</a>
+</li>
+<li>
+<a href="#TimeSpan" title="http://onama.sbg.ac.at/ontology#TimeSpan">Zeitspanne</a>
+</li>
+</ul>
+<div class="entity" id="Actor">
+<h4>Akteur<sup class="type-c" title="class">c</sup>
+
+</h4>
+<p>
+<strong>IRI:</strong> http://onama.sbg.ac.at/ontology#Actor</p>
+<div class="info" type="description"> <p> Die Klasse "Akteur" bezeichnet Protagonisten, die in einem Narrativ aktiv werden und umfasst Personen, Gruppen, Tiere und mythische Wesen/Gottheiten/Fabelwesen. </p> </div>
+<dl class="description">
+<dt>has super-classes</dt>
+<dd>
+<a href="#PersistentItem" title="http://onama.sbg.ac.at/ontology#PersistentItem">Persistentes
+                        Objekt (Seiendes)</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+<dt>has sub-classes</dt>
+<dd>
+<a href="#Group" title="http://onama.sbg.ac.at/ontology#Group">Menschliche Gruppe</a>
+<sup class="type-c" title="class">c</sup>, <a href="#MythicalBeing" title="http://onama.sbg.ac.at/ontology#MythicalBeing">Mythisches Wesen; Gottheit; Fabelwesen</a>
+<sup class="type-c" title="class">c</sup>, <a href="#Person" title="http://onama.sbg.ac.at/ontology#Person">Person</a>
+<sup class="type-c" title="class">c</sup>, <a href="#Animal" title="http://onama.sbg.ac.at/ontology#Animal">Tier</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+<dt>is in range of</dt>
+<dd>
+<a href="#hasActor" title="http://onama.sbg.ac.at/ontology#hasActor">hat Akteur</a>
+<sup class="type-op" title="object property">op</sup>
+</dd>
+</dl>
+</div>
+<div class="entity" id="Thing">
+<h4>Ding<sup class="type-c" title="class">c</sup>
+
+</h4>
+<p>
+<strong>IRI:</strong> http://onama.sbg.ac.at/ontology#Thing</p>
+<div class="info" type="description"> <p>Diese Klasse umfasst intellektuelle Produkte oder physische Dinge.</p> </div><div class="citation" type="citation"> <p>"Diese allgemeine Klasse umfasst brauchbare, erkennbare und eigenständige Instanzen von E77 Seiendes, die als einzelne Einheiten dokumentiert werden. Sie können entweder konkrete Dinge oder geistige Erzeugnisse sein und werden durch verhältnismäßige Stabilität charakterisiert. Dazu gehören z. B. feste körperliche Formen, eine elektronische Kodierung, ein logischer Begriff oder eine logische Struktur." (http://www.cidoc-crm.org/sites/default/files/cidoccrm_end.pdf; http://www.cidoc-crm.org/html/5.0.4/cidoc-crm.html#E70 18.07.19)</p> </div>
+<dl class="description">
+<dt>has super-classes</dt>
+<dd>
+<a href="#PersistentItem" title="http://onama.sbg.ac.at/ontology#PersistentItem">Persistentes
+                        Objekt (Seiendes)</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+<dt>is in range of</dt>
+<dd>
+<a href="#hasThing" title="http://onama.sbg.ac.at/ontology#hasThing">hat Ding</a>
+<sup class="type-op" title="object property">op</sup>
+</dd>
+</dl>
+</div>
+<div class="entity" id="EntityFunction">
+<h4>Entitätsfunktion<sup class="type-c" title="class">c</sup>
+
+</h4>
+<p>
+<strong>IRI:</strong> http://onama.sbg.ac.at/ontology#EntityFunction</p>
+<div class="info" type="description"> <p>Bezeichnet eine Funktion eines Akteurs oder Dings in einem Narrativ (beispielsweise Held, Herrscher, Bösewicht, Trophäe, Talisman...).</p> </div>
+<dl class="description">
+<dt>has super-classes</dt>
+<dd>
+<span class="dotted" title="http://www.w3.org/2004/02/skos/core#Concept">concept</span>, <span class="dotted" title="http://erlangen-crm.org/current/E28_Conceptual_Object">e28 conceptual
+                        object</span>
+</dd>
+<dt>is in range of</dt>
+<dd>
+<a href="#hasEntityFunction" title="http://onama.sbg.ac.at/ontology#hasEntityFunction">hat
+                        Entitätsfunktion</a>
+<sup class="type-op" title="object property">op</sup>, <a href="#hasGeneralEntityFunction" title="http://onama.sbg.ac.at/ontology#hasGeneralEntityFunction">hat allgemeine
+                        Entitätsfunktion</a>
+<sup class="type-op" title="object property">op</sup>, <a href="#hasTemporaryEntityFunction" title="http://onama.sbg.ac.at/ontology#hasTemporaryEntityFunction">hat zeitweilige
+                        Entitätsfunktion</a>
+<sup class="type-op" title="object property">op</sup>
+</dd>
+</dl>
+</div>
+<div class="entity" id="Action">
+<h4>Handlung<sup class="type-c" title="class">c</sup>
+
+</h4>
+<p>
+<strong>IRI:</strong> http://onama.sbg.ac.at/ontology#Action</p>
+<div class="info" type="description"> <p>Abstrakte Handlungskonzepte aus der Klasse "Verb" werden für jedes Narrativ als eigener Knoten angelegt, welcher der Klasse "Handlung" angehört.</p> </div>
+<dl class="description">
+<dt>has super-classes</dt>
+<dd>
+<span class="dotted" title="http://www.w3.org/2004/02/skos/core#Concept">concept</span>, <span class="dotted" title="http://erlangen-crm.org/current/E28_Conceptual_Object">e28 conceptual
+                        object</span>
+</dd>
+<dt>is in domain of</dt>
+<dd>
+<a href="#hasSceneNode" title="http://onama.sbg.ac.at/ontology#hasSceneNode">hat REALonline
+                        Szenengraphknoten</a>
+<sup class="type-dp" title="data property">dp</sup>, <a href="#hasVerb" title="http://onama.sbg.ac.at/ontology#hasVerb">hat Verb</a>
+<sup class="type-op" title="object property">op</sup>
+</dd>
+<dt>is in range of</dt>
+<dd>
+<a href="#hasAction" title="http://onama.sbg.ac.at/ontology#hasAction">hat Handlung</a>
+<sup class="type-op" title="object property">op</sup>
+</dd>
+</dl>
+</div>
+<div class="entity" id="Concept">
+<h4>Konzept<sup class="type-c" title="class">c</sup>
+
+</h4>
+<p>
+<strong>IRI:</strong> http://onama.sbg.ac.at/ontology#Concept</p>
+<div class="info" type="description"> <p>Ein Konzept ist die Definition eines Narrativs als Abstraktum ohne den konkreten Rückbezug auf eine Realisierung. Es kann als Vernetzungsinstanz zwischen verschiedenen Realisierungen dienen.</p> </div>
+<dl class="description">
+<dt>has super-classes</dt>
+<dd>
+<a href="#Narrative" title="http://onama.sbg.ac.at/ontology#Narrative">Narrativ</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+<dt>is in domain of</dt>
+<dd>
+<a href="#narrower" title="http://onama.sbg.ac.at/ontology#narrower">enger</a>
+<sup class="type-op" title="object property">op</sup>, <a href="#hasSupplementaryConcept" title="http://onama.sbg.ac.at/ontology#hasSupplementaryConcept">hat ergänzendes Konzept</a>
+<sup class="type-op" title="object property">op</sup>, <a href="#isRealisedAsSupplementaryNarrativeBy" title="http://onama.sbg.ac.at/ontology#isRealisedAsSupplementaryNarrativeBy">ist realisiert als
+                        ergänzendes Narrativ durch</a>
+<sup class="type-op" title="object property">op</sup>, <a href="#isRealisedBy" title="http://onama.sbg.ac.at/ontology#isRealisedBy">ist realisiert durch</a>
+<sup class="type-op" title="object property">op</sup>, <a href="#narrowerTransitive" title="http://onama.sbg.ac.at/ontology#narrowerTransitive">transitiv enger</a>
+<sup class="type-op" title="object property">op</sup>, <a href="#broaderTransitive" title="http://onama.sbg.ac.at/ontology#broaderTransitive">transitiv umfassender</a>
+<sup class="type-op" title="object property">op</sup>, <a href="#broader" title="http://onama.sbg.ac.at/ontology#broader">umfassender</a>
+<sup class="type-op" title="object property">op</sup>
+</dd>
+<dt>is in range of</dt>
+<dd>
+<a href="#narrower" title="http://onama.sbg.ac.at/ontology#narrower">enger</a>
+<sup class="type-op" title="object property">op</sup>, <a href="#hasSupplementaryConcept" title="http://onama.sbg.ac.at/ontology#hasSupplementaryConcept">hat ergänzendes Konzept</a>
+<sup class="type-op" title="object property">op</sup>, <a href="#realises" title="http://onama.sbg.ac.at/ontology#realises">realisiert</a>
+<sup class="type-op" title="object property">op</sup>, <a href="#realisesAsSupplementaryNarrative" title="http://onama.sbg.ac.at/ontology#realisesAsSupplementaryNarrative">realisiert als
+                        ergänzendes Narrativ</a>
+<sup class="type-op" title="object property">op</sup>, <a href="#narrowerTransitive" title="http://onama.sbg.ac.at/ontology#narrowerTransitive">transitiv enger</a>
+<sup class="type-op" title="object property">op</sup>, <a href="#broaderTransitive" title="http://onama.sbg.ac.at/ontology#broaderTransitive">transitiv umfassender</a>
+<sup class="type-op" title="object property">op</sup>, <a href="#broader" title="http://onama.sbg.ac.at/ontology#broader">umfassender</a>
+<sup class="type-op" title="object property">op</sup>
+</dd>
+<dt>is disjoint with</dt>
+<dd>
+<a href="#Realisation" title="http://onama.sbg.ac.at/ontology#Realisation">Realisierung</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+</dl>
+</div>
+<div class="entity" id="Group">
+<h4>Menschliche Gruppe<sup class="type-c" title="class">c</sup>
+
+</h4>
+<p>
+<strong>IRI:</strong> http://onama.sbg.ac.at/ontology#Group</p>
+<div class="info" type="description"> <p>Bezeichnet eine Gruppe von Individuen, die in ein Narrativ involviert sind.</p> </div><div class="citation" type="citation"> <p>"Diese Klasse umfasst alle Zusammenkünfte oder Organisationen von zwei oder mehr Personen, die aufgrund einer Form der vereinheitlichenden Beziehung kollektiv oder in ähnlicher Weise handeln. Im weiteren Sinne umfasst diese Klasse auch offizielle Positionen, die in bestimmten Kontexten als ein Akteur angesehen wurden, unabhängig vom derzeitigen Amtsinhaber, wie beispielsweise dem Präsidenten eines Landes." (http://www.cidoc-crm.org/html/5.0.4/cidoc-crm.html#E74 18.07.19)</p> </div>
+<dl class="description">
+<dt>has super-classes</dt>
+<dd>
+<a href="#Actor" title="http://onama.sbg.ac.at/ontology#Actor">Akteur</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+</dl>
+</div>
+<div class="entity" id="MythicalBeing">
+<h4>Mythisches Wesen; Gottheit; Fabelwesen<sup class="type-c" title="class">c</sup>
+
+</h4>
+<p>
+<strong>IRI:</strong> http://onama.sbg.ac.at/ontology#MythicalBeing</p>
+<div class="info" type="description"> <p>Bezeichnet ein mythisches Wesen, eine Gottheit oder ein Fabelwesen, welches in ein Narrativ involviert ist.</p> </div>
+<dl class="description">
+<dt>has super-classes</dt>
+<dd>
+<a href="#Actor" title="http://onama.sbg.ac.at/ontology#Actor">Akteur</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+</dl>
+</div>
+<div class="entity" id="Narrative">
+<h4>Narrativ<sup class="type-c" title="class">c</sup>
+
+</h4>
+<p>
+<strong>IRI:</strong> http://onama.sbg.ac.at/ontology#Narrative</p>
+<div class="info" type="description"> <p> Ein Narrativ ist eine einzelne Figurenaktivität, ein Ereignis, eine Zustandsänderung. Jedem Narrativ liegt eine Handlung zugrunde. Das Verb gibt vor, welche semantischen Rollen Akteure, Dinge, Orte und zeitliche Entitäten ausfüllen. Narrative stehen in der Regel mit anderen Narrativen in Verbindung und sind selbst wiederum Teil eines größeren Narrativs.</p> </div><div class="citation" type="citation"> <p>"Für mich liegt, sobald es auch nur eine einzige Handlung oder ein einziges Ereignis gibt, eine Geschichte vor, denn damit gibt es bereits eine Veränderung, einen Übergang vom Vorher zum Nachher." (<span class="bibl">Genette, Gerard. 2010. Die Erzählung. Übersetzt von Andreas Knop. 3. Aufl. Paderborn</span>: 183)</p> <p> "Man definiert Erzählung als die Darstellung eines Ereignisses oder einer Abfolge von Ereignissen" (<span class="bibl">Genette, Gerard. 1987. Narrative Discourse. An Essay in Method. Translated by Jane E. Lewin. 4th. ed. Ithaca NY</span>: 127 [Übersetzung: ONAMA Project].)</p> </div>
+<dl class="description">
+<dt>has super-classes</dt>
+<dd>
+<span class="dotted" title="http://www.w3.org/2004/02/skos/core#Concept">concept</span>, <span class="dotted" title="http://erlangen-crm.org/current/E28_Conceptual_Object">e28 conceptual
+                        object</span>
+</dd>
+<dt>has sub-classes</dt>
+<dd>
+<a href="#Concept" title="http://onama.sbg.ac.at/ontology#Concept">Konzept</a>
+<sup class="type-c" title="class">c</sup>, <a href="#Realisation" title="http://onama.sbg.ac.at/ontology#Realisation">Realisierung</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+<dt>is in domain of</dt>
+<dd>
+<a href="#hasAction" title="http://onama.sbg.ac.at/ontology#hasAction">hat Handlung</a>
+<sup class="type-op" title="object property">op</sup>, <a href="#hasSemanticRole" title="http://onama.sbg.ac.at/ontology#hasSemanticRole">hat semantische Rolle</a>
+<sup class="type-op" title="object property">op</sup>
+</dd>
+<dt>is in range of</dt>
+<dd>
+<a href="#hasNarrative" title="http://onama.sbg.ac.at/ontology#hasNarrative">hat Narrativ</a>
+<sup class="type-op" title="object property">op</sup>
+</dd>
+<dt>is disjoint with</dt>
+<dd>
+<a href="#SemanticRole" title="http://onama.sbg.ac.at/ontology#SemanticRole">Semantische Rolle</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+</dl>
+</div>
+<div class="entity" id="Place">
+<h4>Ort<sup class="type-c" title="class">c</sup>
+
+</h4>
+<p>
+<strong>IRI:</strong> http://onama.sbg.ac.at/ontology#Place</p>
+<div class="info" type="description"> <p>Bezeichnet Ausdehnungen im Raum, die in der Regel unbeweglich sind (beispielsweise Burg, Garten, Tal...). </p> </div><div class="citation" type="citation"> <p>"Diese Klasse umfasst Ausdehnungen im Raum, insbesondere auf der Erdoberfläche, im reinen Sinne der Physik: unabhängig von zeitlichen Phänomenen und Materie. Die Instanzen werden in der Regel durch Bezugnahme auf die Position von "unbeweglichen" Objekten wie Gebäuden, Städten, Bergen, Flüssen oder speziellen geodätischen Markierungen bestimmt." (http://www.cidoc-crm.org/html/5.0.4/cidoc-crm.html#E53 18.07.19)</p> </div>
+<dl class="description">
+<dt>is in range of</dt>
+<dd>
+<a href="#hasPlace" title="http://onama.sbg.ac.at/ontology#hasPlace">hat Ort</a>
+<sup class="type-op" title="object property">op</sup>
+</dd>
+<dt>is disjoint with</dt>
+<dd>
+<a href="#PersistentItem" title="http://onama.sbg.ac.at/ontology#PersistentItem">Persistentes
+                        Objekt (Seiendes)</a>
+<sup class="type-c" title="class">c</sup>, <a href="#TimeSpan" title="http://onama.sbg.ac.at/ontology#TimeSpan">Zeitspanne</a>
+<sup class="type-c" title="class">c</sup>, <a href="#PersistentItem" title="http://onama.sbg.ac.at/ontology#PersistentItem">Persistentes Objekt (Seiendes)</a>
+<sup class="type-c" title="class">c</sup>, <a href="#TemporalEntity" title="http://onama.sbg.ac.at/ontology#TemporalEntity">Zeitliche Entität (Geschehendes)</a>
+<sup class="type-c" title="class">c</sup>, <a href="#TimeSpan" title="http://onama.sbg.ac.at/ontology#TimeSpan">Zeitspanne</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+</dl>
+</div>
+<div class="entity" id="PersistentItem">
+<h4>Persistentes Objekt (Seiendes)<sup class="type-c" title="class">c</sup>
+
+</h4>
+<p>
+<strong>IRI:</strong> http://onama.sbg.ac.at/ontology#PersistentItem</p>
+<div class="info" type="description"> <p>Diese Klasse umfasst Lebewesen, Gegenstände und geistige Erzeugnisse, die eine dauerhafte Identität haben.</p> </div><div class="citation" type="citation"> <p>"Diese Klasse umfasst Gegenstände, die eine dauerhafte Identität haben. Manchmal werden diese Gegenstände in der Philosophie mit dem Begriff der 'endurants' belegt. Die Instanzen dieser Klasse lassen sich während ihrer Existenz[dauer] eher durch identitätsbestimmende Kriterien fassen als durch die Kontinuität der Beobachtung. Dauerhafte Gegenstände können entweder dinglich fassbare Entitäten wie Leute, Tiere und andere Dinge sein oder sie stellen konzeptuelle Entitäten wie Ideen, Begriffe, verbreitete Namen oder andere Erzeugnisse der Vorstellung dar." (http://www.cidoc-crm.org/sites/default/files/cidoccrm_end.pdf; http://www.cidoc-crm.org/html/5.0.4/cidoc-crm.html#E77 18.07.19)</p> </div>
+<dl class="description">
+<dt>has sub-classes</dt>
+<dd>
+<a href="#Actor" title="http://onama.sbg.ac.at/ontology#Actor">Akteur</a>
+<sup class="type-c" title="class">c</sup>, <a href="#Thing" title="http://onama.sbg.ac.at/ontology#Thing">Ding</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+<dt>is in domain of</dt>
+<dd>
+<a href="#hasGeneralEntityFunction" title="http://onama.sbg.ac.at/ontology#hasGeneralEntityFunction">hat allgemeine
+                        Entitätsfunktion</a>
+<sup class="type-op" title="object property">op</sup>
+</dd>
+<dt>is disjoint with</dt>
+<dd>
+<a href="#Place" title="http://onama.sbg.ac.at/ontology#Place">Ort</a>
+<sup class="type-c" title="class">c</sup>, <a href="#SemanticRole" title="http://onama.sbg.ac.at/ontology#SemanticRole">Semantische Rolle</a>
+<sup class="type-c" title="class">c</sup>, <a href="#TimeSpan" title="http://onama.sbg.ac.at/ontology#TimeSpan">Zeitspanne</a>
+<sup class="type-c" title="class">c</sup>, <a href="#Place" title="http://onama.sbg.ac.at/ontology#Place">Ort</a>
+<sup class="type-c" title="class">c</sup>, <a href="#TemporalEntity" title="http://onama.sbg.ac.at/ontology#TemporalEntity">Zeitliche Entität (Geschehendes)</a>
+<sup class="type-c" title="class">c</sup>, <a href="#TimeSpan" title="http://onama.sbg.ac.at/ontology#TimeSpan">Zeitspanne</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+</dl>
+</div>
+<div class="entity" id="Person">
+<h4>Person<sup class="type-c" title="class">c</sup>
+
+</h4>
+<p>
+<strong>IRI:</strong> http://onama.sbg.ac.at/ontology#Person</p>
+<div class="info" type="description"> <p>Bezeichnet eine Person, welche in ein Narrativ involviert ist.</p> </div><div class="citation" type="citation"> <p>"Diese Klasse umfasst reale Personen, die leben oder von denen angenommen wird, dass sie gelebt haben. Auch legendäre Gestalten, die vielleicht einmal gelebt haben, wie Odysseus und König Artus, gehören dieser Klasse an." (http://www.cidoc-crm.org/html/5.0.4/cidoc-crm.html#E21 18.07.19)</p> </div>
+<dl class="description">
+<dt>has super-classes</dt>
+<dd>
+<a href="#Actor" title="http://onama.sbg.ac.at/ontology#Actor">Akteur</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+</dl>
+</div>
+<div class="entity" id="Realisation">
+<h4>Realisierung<sup class="type-c" title="class">c</sup>
+
+</h4>
+<p>
+<strong>IRI:</strong> http://onama.sbg.ac.at/ontology#Realisation</p>
+<div class="info" type="description"> <p>Realisierungen sind konkrete Umsetzungen von Narrativ-Konzepten in einem spezifischen Medium, etwa einem Text oder einem Bild.</p> </div>
+<dl class="description">
+<dt>has super-classes</dt>
+<dd>
+<a href="#Narrative" title="http://onama.sbg.ac.at/ontology#Narrative">Narrativ</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+<dt>has sub-classes</dt>
+<dd>
+<a href="#TextualRealisation" title="http://onama.sbg.ac.at/ontology#TextualRealisation">Textuelle
+                        Realisierung</a>
+<sup class="type-c" title="class">c</sup>, <a href="#VisualRealisation" title="http://onama.sbg.ac.at/ontology#VisualRealisation">Visuelle Realisierung</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+<dt>is in domain of</dt>
+<dd>
+<a href="#partOfCollection" title="http://onama.sbg.ac.at/ontology#partOfCollection">Teil einer
+                        Sammlung</a>
+<sup class="type-op" title="object property">op</sup>, <a href="#nextFabula" title="http://onama.sbg.ac.at/ontology#nextFabula">nächste Fabula</a>
+<sup class="type-op" title="object property">op</sup>, <a href="#next" title="http://onama.sbg.ac.at/ontology#next">nächstes</a>
+<sup class="type-op" title="object property">op</sup>, <a href="#nextSyuzhet" title="http://onama.sbg.ac.at/ontology#nextSyuzhet">nächstes Syuzhet</a>
+<sup class="type-op" title="object property">op</sup>, <a href="#occursSimultaneously" title="http://onama.sbg.ac.at/ontology#occursSimultaneously">passiert gleichzeitig</a>
+<sup class="type-op" title="object property">op</sup>, <a href="#realises" title="http://onama.sbg.ac.at/ontology#realises">realisiert</a>
+<sup class="type-op" title="object property">op</sup>, <a href="#realisesAsSupplementaryNarrative" title="http://onama.sbg.ac.at/ontology#realisesAsSupplementaryNarrative">realisiert als
+                        ergänzendes Narrativ</a>
+<sup class="type-op" title="object property">op</sup>, <a href="#previous" title="http://onama.sbg.ac.at/ontology#previous">vorhergehend</a>
+<sup class="type-op" title="object property">op</sup>, <a href="#previousFabula" title="http://onama.sbg.ac.at/ontology#previousFabula">vorhergehende Fabula</a>
+<sup class="type-op" title="object property">op</sup>, <a href="#previousSyuzhet" title="http://onama.sbg.ac.at/ontology#previousSyuzhet">vorhergehendes Syuzhet</a>
+<sup class="type-op" title="object property">op</sup>
+</dd>
+<dt>is in range of</dt>
+<dd>
+<a href="#firstInCollection" title="http://onama.sbg.ac.at/ontology#firstInCollection">erstes
+                        Element in einer Sammlung</a>
+<sup class="type-op" title="object property">op</sup>, <a href="#isRealisedAsSupplementaryNarrativeBy" title="http://onama.sbg.ac.at/ontology#isRealisedAsSupplementaryNarrativeBy">ist realisiert als
+                        ergänzendes Narrativ durch</a>
+<sup class="type-op" title="object property">op</sup>, <a href="#isRealisedBy" title="http://onama.sbg.ac.at/ontology#isRealisedBy">ist realisiert durch</a>
+<sup class="type-op" title="object property">op</sup>, <a href="#nextFabula" title="http://onama.sbg.ac.at/ontology#nextFabula">nächste Fabula</a>
+<sup class="type-op" title="object property">op</sup>, <a href="#next" title="http://onama.sbg.ac.at/ontology#next">nächstes</a>
+<sup class="type-op" title="object property">op</sup>, <a href="#nextSyuzhet" title="http://onama.sbg.ac.at/ontology#nextSyuzhet">nächstes Syuzhet</a>
+<sup class="type-op" title="object property">op</sup>, <a href="#occursSimultaneously" title="http://onama.sbg.ac.at/ontology#occursSimultaneously">passiert gleichzeitig</a>
+<sup class="type-op" title="object property">op</sup>, <a href="#previous" title="http://onama.sbg.ac.at/ontology#previous">vorhergehend</a>
+<sup class="type-op" title="object property">op</sup>, <a href="#previousFabula" title="http://onama.sbg.ac.at/ontology#previousFabula">vorhergehende Fabula</a>
+<sup class="type-op" title="object property">op</sup>, <a href="#previousSyuzhet" title="http://onama.sbg.ac.at/ontology#previousSyuzhet">vorhergehendes Syuzhet</a>
+<sup class="type-op" title="object property">op</sup>
+</dd>
+<dt>is disjoint with</dt>
+<dd>
+<a href="#Concept" title="http://onama.sbg.ac.at/ontology#Concept">Konzept</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+</dl>
+</div>
+<div class="entity" id="AgentRole">
+<h4>Rolle Agens<sup class="type-c" title="class">c</sup>
+
+</h4>
+<p>
+<strong>IRI:</strong> http://onama.sbg.ac.at/ontology#AgentRole</p>
+<div class="info" type="description"> <p>Ein Agens ist ein typischerweise belebter Partizipant, welcher die vom verbalen Prädikat bezeichnete Situation absichtlich auslöst. </p> </div><div class="citation" type="citation"> <p>"Traditionellerweise charakterisiert man das Agens als den typischerweise belebten Partizipanten, welcher die vom verbalen Prädikat bezeichnete Situation absichtlich herbeiführt." (<span class="bibl">Primus, Beatrice. 2012. Semantische Rollen. Kurze Einführungen in die germanistische Linguistik 12. Heidelberg</span>: 16-17)</p> <p> "Ein Agens ist in der Regel der grammatikalische Gegenstand des Verbs in einer aktiven Klausel. Ein prototypisches Agens ist sich seiner bewusst, handelt willentlich (absichtlich) und führt eine Handlung durch, die einen physischen, sichtbaren Effekt hat." (https://glossary.sil.org/term/agent-semantic-role 18.07.2019 [Übersetzung: ONAMA Project]) </p> <p> "Agens - Der 'Macher' oder Anstifter der durch das Prädikat bezeichneten Handlung." (<span class="bibl">Aarts, Bas. 2001. English syntax and argumentation. 2nd ed. Modern linguistics series. Basingstoke</span>: 94 [Übersetzung: ONAMA Project]). </p> </div>
+<dl class="description">
+<dt>has super-classes</dt>
+<dd>
+<a href="#CauserRole" title="http://onama.sbg.ac.at/ontology#CauserRole">Rolle Verursacher/in</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+</dl>
+</div>
+<div class="entity" id="ActantRole">
+<h4>Rolle Aktant<sup class="type-c" title="class">c</sup>
+
+</h4>
+<p>
+<strong>IRI:</strong> http://onama.sbg.ac.at/ontology#ActantRole</p>
+<div class="info" type="description"> <p>Aktanten sind Elemente, die eine Handlung ausführen oder von einer Handlung betroffen sind.</p> </div>
+<dl class="description">
+<dt>has super-classes</dt>
+<dd>
+<a href="#SemanticRole" title="http://onama.sbg.ac.at/ontology#SemanticRole">Semantische Rolle</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+<dt>has sub-classes</dt>
+<dd>
+<a href="#UndergoerRole" title="http://onama.sbg.ac.at/ontology#UndergoerRole">Rolle
+                        Betroffene/r</a>
+<sup class="type-c" title="class">c</sup>, <a href="#ParticipatorRole" title="http://onama.sbg.ac.at/ontology#ParticipatorRole">Rolle Teilnehmende/r</a>
+<sup class="type-c" title="class">c</sup>, <a href="#CauserRole" title="http://onama.sbg.ac.at/ontology#CauserRole">Rolle Verursacher/in</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+</dl>
+</div>
+<div class="entity" id="BenefactiveRole">
+<h4>Rolle Benefaktiv<sup class="type-c" title="class">c</sup>
+
+</h4>
+<p>
+<strong>IRI:</strong> http://onama.sbg.ac.at/ontology#BenefactiveRole</p>
+<div class="info" type="description"> <p>Benefaktiv ist die semantische Rolle eines Referenten, der durch ein Ereignis begünstigt oder benachteiligt wird.</p> </div><div class="citation" type="citation"> <p>"Ein Benefizient ist die semantische Rolle eines Referenten, der durch ein Ereignis begünstigt oder benachteiligt wird." (https://glossary.sil.org/term/beneficiary-semantic-role 18.07.2019 [Übersetzung: ONAMA Project])</p> <p> "Benefaktiv - Die Entität, die von der Aktion oder dem Ereignis profitiert, die durch das Prädikat bezeichnet wird." (<span class="bibl">Aarts, Bas. 2001. English syntax and argumentation. 2nd ed. Modern linguistics series. Basingstoke</span>: 94 [Übersetzung: ONAMA Project])</p> </div>
+<dl class="description">
+<dt>has super-classes</dt>
+<dd>
+<a href="#ParticipatorRole" title="http://onama.sbg.ac.at/ontology#ParticipatorRole">Rolle
+                        Teilnehmende/r</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+</dl>
+</div>
+<div class="entity" id="PossessorRole">
+<h4>Rolle Besitzer/in<sup class="type-c" title="class">c</sup>
+
+</h4>
+<p>
+<strong>IRI:</strong> http://onama.sbg.ac.at/ontology#PossessorRole</p>
+<div class="info" type="description"> <p>Besitzer/in ist die semantische Rolle einer Entität, die etwas besitzt.</p> </div>
+<dl class="description">
+<dt>has super-classes</dt>
+<dd>
+<a href="#ParticipatorRole" title="http://onama.sbg.ac.at/ontology#ParticipatorRole">Rolle
+                        Teilnehmende/r</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+</dl>
+</div>
+<div class="entity" id="UndergoerRole">
+<h4>Rolle Betroffene/r<sup class="type-c" title="class">c</sup>
+
+</h4>
+<p>
+<strong>IRI:</strong> http://onama.sbg.ac.at/ontology#UndergoerRole</p>
+<div class="info" type="description"> <p>The "undergoer" of the action or event denoted by the predicate.</p> </div><div class="citation" type="citation"> <p>cf. on the hierarchy of semantic roles: (<span class="bibl">Eisenberg, Peter, Jörg Peters, Peter Gallmann, Cathrine Fabricius-Hansen, Damaris Nübling, Irmhild Bartz, Thomas A. Fritz und Reinhard Fiehler. 2009. Die Grammatik: Unentbehrlich für richtiges Deutsch. 8. Aufl. Der Duden in zwölf Bänden 4. Mannheim, Zürich</span>: 391).</p> </div>
+<dl class="description">
+<dt>has super-classes</dt>
+<dd>
+<a href="#ActantRole" title="http://onama.sbg.ac.at/ontology#ActantRole">Rolle Aktant</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+<dt>has sub-classes</dt>
+<dd>
+<a href="#PatientRole" title="http://onama.sbg.ac.at/ontology#PatientRole">Rolle Patiens</a>
+<sup class="type-c" title="class">c</sup>, <a href="#ThemeRole" title="http://onama.sbg.ac.at/ontology#ThemeRole">Rolle Thema</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+</dl>
+</div>
+<div class="entity" id="InstrumentRole">
+<h4>Rolle Instrument<sup class="type-c" title="class">c</sup>
+
+</h4>
+<p>
+<strong>IRI:</strong> http://onama.sbg.ac.at/ontology#InstrumentRole</p>
+<div class="info" type="description"> <p>Instrument – Das Mittel, mit dem die durch das Prädikat bezeichnete Handlung oder das Ereignis ausgeführt wird.</p> </div><div class="example" type="example"> <p> Paris tötet Achill mit dem Pfeil. </p> </div><div class="citation" type="citation"> <p>"Instrument ist die semantische Rolle für eine in der Regel unbelebte Entität, die zusammen mit einem kontrollierenden Verursacher (einem Agens) die vom Prädikat bezeichnete Situation bzw. deren Resultat hervorruft." (<span class="bibl">Primus, Beatrice. 2012. Semantische Rollen. Kurze Einführungen in die germanistische Linguistik 12. Heidelberg</span>: 72)</p> <p> "Instrumental – Mittel oder Werkzeug (womit?, wodurch?)." (<span class="bibl">Eisenberg, Peter, Jörg Peters, Peter Gallmann, Cathrine Fabricius-Hansen, Damaris Nübling, Irmhild Bartz, Thomas A. Fritz und Reinhard Fiehler. 2009. Die Grammatik: Unentbehrlich für richtiges Deutsch. 8. Aufl. Der Duden in zwölf Bänden 4. Mannheim, Zürich</span>:784)</p> <p> "Instrument – Das Mittel, mit dem die durch das Prädikat bezeichnete Handlung oder das Ereignis ausgeführt wird." (<span class="bibl">Aarts, Bas. 2001. English syntax and argumentation. 2nd ed. Modern linguistics series. Basingstoke</span>: 95 [Übersetzung: ONAMA Project])</p> </div>
+<dl class="description">
+<dt>has super-classes</dt>
+<dd>
+<a href="#SemanticRole" title="http://onama.sbg.ac.at/ontology#SemanticRole">Semantische Rolle</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+</dl>
+</div>
+<div class="entity" id="Co-AgentRole">
+<h4>Rolle Ko-Agens<sup class="type-c" title="class">c</sup>
+
+</h4>
+<p>
+<strong>IRI:</strong> http://onama.sbg.ac.at/ontology#Co-AgentRole</p>
+<div class="info" type="description"> <p>Bezeichnet Ko- oder Re-Agierende bei Verben, die Handlungen beschreiben, die in der Relation von Aktion und Reaktion zueinander stehen.</p> </div><div class="citation" type="citation"> <p>"Ko-Agens: [...] Ko- oder Re-Agierender bei Verben, die Handlungen beschreiben, die in der Relation von Aktion und Reaktion zueinander stehen (jemandem begegnen, jemandem entgegenkommen, jemandem folgen, jemandem gehorchen, jemandem etwas nachmachen, jemandem etwas erlauben, jemandem helfen." (<span class="bibl">Wegener, Heide. 1985. Der Dativ im heutigen Deutsch. Tübingen</span>: 261 <i>nach</i> <span class="bibl">Primus, Beatrice. 2012. Semantische Rollen. Kurze Einführungen in die germanistische Linguistik 12. Heidelberg</span>: 56)</p> </div>
+<dl class="description">
+<dt>has super-classes</dt>
+<dd>
+<a href="#CauserRole" title="http://onama.sbg.ac.at/ontology#CauserRole">Rolle Verursacher/in</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+</dl>
+</div>
+<div class="entity" id="LocalisationRole">
+<h4>Rolle Lokalisierung<sup class="type-c" title="class">c</sup>
+
+</h4>
+<p>
+<strong>IRI:</strong> http://onama.sbg.ac.at/ontology#LocalisationRole</p>
+<div class="info" type="description"> <p>Lokaladverbiale; Adverbiale des Raumes.</p> </div><div class="citation" type="citation"> <p>Lokaladverbiale: Ort (wo?) – Richtung, Weg, Ziel (wohin?) – Herkunft (woher?) – räumliche Erstreckung (wie weit?). (vgl. <span class="bibl">Eisenberg, Peter, Jörg Peters, Peter Gallmann, Cathrine Fabricius-Hansen, Damaris Nübling, Irmhild Bartz, Thomas A. Fritz und Reinhard Fiehler. 2009. Die Grammatik: Unentbehrlich für richtiges Deutsch. 8. Aufl. Der Duden in zwölf Bänden 4. Mannheim, Zürich</span>: 783)</p> </div>
+<dl class="description">
+<dt>has super-classes</dt>
+<dd>
+<a href="#SemanticRole" title="http://onama.sbg.ac.at/ontology#SemanticRole">Semantische Rolle</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+<dt>has sub-classes</dt>
+<dd>
+<a href="#PlaceRole" title="http://onama.sbg.ac.at/ontology#PlaceRole">Rolle Ort</a>
+<sup class="type-c" title="class">c</sup>, <a href="#SourceRole" title="http://onama.sbg.ac.at/ontology#SourceRole">Rolle Quelle</a>
+<sup class="type-c" title="class">c</sup>, <a href="#GoalRole" title="http://onama.sbg.ac.at/ontology#GoalRole">Rolle Ziel</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+</dl>
+</div>
+<div class="entity" id="ModeRole">
+<h4>Rolle Modus<sup class="type-c" title="class">c</sup>
+
+</h4>
+<p>
+<strong>IRI:</strong> http://onama.sbg.ac.at/ontology#ModeRole</p>
+<div class="info" type="description"> <p>Modales Adverbiale; Adverbiale der Art und Weise</p> </div><div class="citation" type="citation"> <p>Modales Adverbiale: Vorgehensweise (wie?) – Grad, Maß, Intensität (wieviel, wie sehr...?) – stoffliche Beschaffenheit (woraus?). (Vgl. <span class="bibl">Eisenberg, Peter, Jörg Peters, Peter Gallmann, Cathrine Fabricius-Hansen, Damaris Nübling, Irmhild Bartz, Thomas A. Fritz und Reinhard Fiehler. 2009. Die Grammatik: Unentbehrlich für richtiges Deutsch. 8. Aufl. Der Duden in zwölf Bänden 4. Mannheim, Zürich</span>: 784)</p> </div>
+<dl class="description">
+<dt>has super-classes</dt>
+<dd>
+<a href="#SemanticRole" title="http://onama.sbg.ac.at/ontology#SemanticRole">Semantische Rolle</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+</dl>
+</div>
+<div class="entity" id="PlaceRole">
+<h4>Rolle Ort<sup class="type-c" title="class">c</sup>
+
+</h4>
+<p>
+<strong>IRI:</strong> http://onama.sbg.ac.at/ontology#PlaceRole</p>
+<div class="info" type="description"> <p>Lokativ – Die Angabe des Ortes, an dem die durch das Prädikat bezeichnete Handlung oder das Ereignis stattfindet.</p> </div><div class="citation" type="citation"> <p>"Lokativ – Die Angabe des Ortes, an dem die durch das Prädikat bezeichnete Handlung oder das Ereignis stattfindet." (<span class="bibl">Aarts, Bas. 2001. English syntax and argumentation. 2nd ed. Modern linguistics series. Basingstoke</span>: 95 [Übersetzung: ONAMA Project])</p> </div>
+<dl class="description">
+<dt>has super-classes</dt>
+<dd>
+<a href="#LocalisationRole" title="http://onama.sbg.ac.at/ontology#LocalisationRole">Rolle
+                        Lokalisierung</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+</dl>
+</div>
+<div class="entity" id="PatientRole">
+<h4>Rolle Patiens<sup class="type-c" title="class">c</sup>
+
+</h4>
+<p>
+<strong>IRI:</strong> http://onama.sbg.ac.at/ontology#PatientRole</p>
+<div class="info" type="description"> <p>Patiens – Die von einem Geschehen betroffene lebende Entität, die keine Kontrolle auf den Vorgang ausübt; die betroffene Sache oder der betroffene Sachverhalt.</p> </div><div class="citation" type="citation"> <p>"Als Patiens wird die semantische Rolle eines Partizipanten bezeichnet, der in dem vom Prädikat bezeichneten Geschehen physisch manifest betroffen ist und dessen Zustand sich physisch verändert. Die grundlegenden Begriffe, welche ein Patiens charakterisieren, sind mithin physische Betroffenheit (auch Affiziertheit) und Zustandsveränderung." (<span class="bibl">Primus, Beatrice. 2012. Semantische Rollen. Kurze Einführungen in die germanistische Linguistik 12. Heidelberg</span>: 31-32)</p> <p> "Gruppe 3: Patiens (betroffene Sache oder Person, die keine Kontrolle auf den Vorgang / die Handlung ausübt); betroffener Sachverhalt." (<span class="bibl">Eisenberg, Peter, Jörg Peters, Peter Gallmann, Cathrine Fabricius-Hansen, Damaris Nübling, Irmhild Bartz, Thomas A. Fritz und Reinhard Fiehler. 2009. Die Grammatik: Unentbehrlich für richtiges Deutsch. 8. Aufl. Der Duden in zwölf Bänden 4. Mannheim, Zürich</span>: 391)</p> <p> "Der 'Betroffene' der Handlung oder des Ereignisses, die durch das Prädikat bezeichnet ist." (<span class="bibl">Aarts, Bas. 2001. English syntax and argumentation. 2nd ed. Modern linguistics series. Basingstoke</span>: 94 [Übersetzung: ONAMA Project])</p> </div>
+<dl class="description">
+<dt>has super-classes</dt>
+<dd>
+<a href="#UndergoerRole" title="http://onama.sbg.ac.at/ontology#UndergoerRole">Rolle
+                        Betroffene/r</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+</dl>
+</div>
+<div class="entity" id="PredicativeRole">
+<h4>Rolle Prädikativ<sup class="type-c" title="class">c</sup>
+
+</h4>
+<p>
+<strong>IRI:</strong> http://onama.sbg.ac.at/ontology#PredicativeRole</p>
+<div class="info" type="description"> <p>Das Prädikativ macht wie das Prädikat eine Aussage über eine oder mehrere andere Phrasen. Ein Prädikativ hat nie ein finites Verb als Kern, höchstens ein adjektivisch gebrauchtes Partizip. Ein Prädikativ kann eine Ergänzung eines weitgehend inhaltsleeren Verbs sein.</p> </div><div class="example" type="example"> <p>Die Fürsten wählen Friedrich zum König. – "zum König": Prädikativ. </p> </div><div class="citation" type="citation"> <p>(Vgl. <span class="bibl">Eisenberg, Peter, Jörg Peters, Peter Gallmann, Cathrine Fabricius-Hansen, Damaris Nübling, Irmhild Bartz, Thomas A. Fritz und Reinhard Fiehler. 2009. Die Grammatik: Unentbehrlich für richtiges Deutsch. 8. Aufl. Der Duden in zwölf Bänden 4. Mannheim, Zürich</span>: 787–788)</p> </div>
+<dl class="description">
+<dt>has super-classes</dt>
+<dd>
+<a href="#SemanticRole" title="http://onama.sbg.ac.at/ontology#SemanticRole">Semantische Rolle</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+</dl>
+</div>
+<div class="entity" id="SourceRole">
+<h4>Rolle Quelle<sup class="type-c" title="class">c</sup>
+
+</h4>
+<p>
+<strong>IRI:</strong> http://onama.sbg.ac.at/ontology#SourceRole</p>
+<div class="info" type="description"> <p>Quelle – Der Ort oder die Entität, von der aus sich etwas bewegt.</p> </div><div class="citation" type="citation"> <p>"Quelle – Der Ort oder die Entität, von der aus sich etwas bewegt." (<span class="bibl">Aarts, Bas. 2001. English syntax and argumentation. 2nd ed. Modern linguistics series. Basingstoke</span>: 95 [Übersetzung: ONAMA Project])</p> </div>
+<dl class="description">
+<dt>has super-classes</dt>
+<dd>
+<a href="#LocalisationRole" title="http://onama.sbg.ac.at/ontology#LocalisationRole">Rolle
+                        Lokalisierung</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+</dl>
+</div>
+<div class="entity" id="RecipientRole">
+<h4>Rolle Rezipient/in<sup class="type-c" title="class">c</sup>
+
+</h4>
+<p>
+<strong>IRI:</strong> http://onama.sbg.ac.at/ontology#RecipientRole</p>
+<div class="info" type="description"> <p>Der Empfänger einer Entität oder Information bei Verben, die den Transfer eines Besitzgegenstandes oder einer Information bezeichnen.</p> </div><div class="citation" type="citation"> <p>"Der Rezipient im engeren Sinne ist der Empfänger einer Entität oder Information bei Verben, die den Transfer eines Besitzgegenstandes oder einer Information bezeichnen." (<span class="bibl">Primus, Beatrice. 2012. Semantische Rollen. Kurze Einführungen in die germanistische Linguistik 12. Heidelberg</span>: 44)</p> </div>
+<dl class="description">
+<dt>has super-classes</dt>
+<dd>
+<a href="#ParticipatorRole" title="http://onama.sbg.ac.at/ontology#ParticipatorRole">Rolle
+                        Teilnehmende/r</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+</dl>
+</div>
+<div class="entity" id="StimulusRole">
+<h4>Rolle Stimulus<sup class="type-c" title="class">c</sup>
+
+</h4>
+<p>
+<strong>IRI:</strong> http://onama.sbg.ac.at/ontology#StimulusRole</p>
+<div class="info" type="description"> <p>Als Stimulus bezeichnet man den oftmals unbelebten Verursacher, welcher die vom Prädikat bezeichnete Situation herbeiführt. In Kombination mit der Rolle Experiencer (Wahrnehmende/r) bezeichnet Stimulus den Auslöser oder Gegenstand eines psychischen Zustands.</p> </div><div class="citation" type="citation"> <p>"[D]er Gegenstand eines psychischen Zustands [...]. Jeder Gegenstand eines psychischen Zustands setzt einen Zustandsträger (Experiencer) voraus." (<span class="bibl">Primus, Beatrice. 2012. Semantische Rollen. Kurze Einführungen in die germanistische Linguistik 12. Heidelberg</span>: 39)</p> </div>
+<dl class="description">
+<dt>has super-classes</dt>
+<dd>
+<a href="#CauserRole" title="http://onama.sbg.ac.at/ontology#CauserRole">Rolle Verursacher/in</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+</dl>
+</div>
+<div class="entity" id="ParticipatorRole">
+<h4>Rolle Teilnehmende/r<sup class="type-c" title="class">c</sup>
+
+</h4>
+<p>
+<strong>IRI:</strong> http://onama.sbg.ac.at/ontology#ParticipatorRole</p>
+<div class="info" type="description"> <p>Die Klasse umfasst typischerweise belebte Entitäten, die am Geschehen teilhaben, aber keine Kontrolle oder Initiative im Zusammenhang damit aufweisen.</p> </div><div class="citation" type="citation"> <p>Vgl. zur Hierarchie der semantischen Rollen: (<span class="bibl">Eisenberg, Peter, Jörg Peters, Peter Gallmann, Cathrine Fabricius-Hansen, Damaris Nübling, Irmhild Bartz, Thomas A. Fritz und Reinhard Fiehler. 2009. Die Grammatik: Unentbehrlich für richtiges Deutsch. 8. Aufl. Der Duden in zwölf Bänden 4. Mannheim, Zürich</span>: 391).</p> </div>
+<dl class="description">
+<dt>has super-classes</dt>
+<dd>
+<a href="#ActantRole" title="http://onama.sbg.ac.at/ontology#ActantRole">Rolle Aktant</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+<dt>has sub-classes</dt>
+<dd>
+<a href="#BenefactiveRole" title="http://onama.sbg.ac.at/ontology#BenefactiveRole">Rolle
+                        Benefaktiv</a>
+<sup class="type-c" title="class">c</sup>, <a href="#PossessorRole" title="http://onama.sbg.ac.at/ontology#PossessorRole">Rolle Besitzer/in</a>
+<sup class="type-c" title="class">c</sup>, <a href="#RecipientRole" title="http://onama.sbg.ac.at/ontology#RecipientRole">Rolle Rezipient/in</a>
+<sup class="type-c" title="class">c</sup>, <a href="#ExperiencerRole" title="http://onama.sbg.ac.at/ontology#ExperiencerRole">Rolle Wahrnehmende/r</a>
+<sup class="type-c" title="class">c</sup>, <a href="#WitnessRole" title="http://onama.sbg.ac.at/ontology#WitnessRole">Rolle Zeuge/Zeugin</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+</dl>
+</div>
+<div class="entity" id="ThemeRole">
+<h4>Rolle Thema<sup class="type-c" title="class">c</sup>
+
+</h4>
+<p>
+<strong>IRI:</strong> http://onama.sbg.ac.at/ontology#ThemeRole</p>
+<div class="info" type="description"> <p>Thema – Die Entität, die durch das im Prädikat bezeichnete Geschehen (bzw. den bezeichneten Zustand) räumlich bewegt oder räumlich eingeordnet wird.</p> </div><div class="citation" type="citation"> <p>"Thema – Die Entität, die durch die Aktion oder das Ereignis bewegt wird, das durch das Prädikat gekennzeichnet ist." (<span class="bibl">Aarts, Bas. 2001. English syntax and argumentation. 2nd ed. Modern linguistics series. Basingstoke</span>: 94 [Übersetzung: ONAMA Project])</p> <p> Die räumlich eingeordnete Entität bei Positionsverben und Ortswechselverben. (vgl. <span class="bibl">Primus, Beatrice. 2012. Semantische Rollen. Kurze Einführungen in die germanistische Linguistik 12. Heidelberg</span>: 63-72, dort unter dem Begriff Lokatum)</p> <div type="example"> <p> Jason bringt das Goldene Vlies (<i>Theme</i>) nach Iolkos, Heiliger Johannes (<i>Theme</i>) befindet sich auf Patmos, Heiliger Antonius (<i>Theme</i>) lebt in der Wüste.</p> </div> </div>
+<dl class="description">
+<dt>has super-classes</dt>
+<dd>
+<a href="#UndergoerRole" title="http://onama.sbg.ac.at/ontology#UndergoerRole">Rolle
+                        Betroffene/r</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+</dl>
+</div>
+<div class="entity" id="CauserRole">
+<h4>Rolle Verursacher/in<sup class="type-c" title="class">c</sup>
+
+</h4>
+<p>
+<strong>IRI:</strong> http://onama.sbg.ac.at/ontology#CauserRole</p>
+<div class="info">
+<span class="markdown">Verursacher/in ist die semantische Rolle einer Person oder Sache, die eine
+                     Handlung ausführt bzw. ein Ereignis auslöst.</span>
+</div>
+<dl class="description">
+<dt>has super-classes</dt>
+<dd>
+<a href="#ActantRole" title="http://onama.sbg.ac.at/ontology#ActantRole">Rolle Aktant</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+<dt>has sub-classes</dt>
+<dd>
+<a href="#AgentRole" title="http://onama.sbg.ac.at/ontology#AgentRole">Rolle Agens</a>
+<sup class="type-c" title="class">c</sup>, <a href="#Co-AgentRole" title="http://onama.sbg.ac.at/ontology#Co-AgentRole">Rolle Ko-Agens</a>
+<sup class="type-c" title="class">c</sup>, <a href="#StimulusRole" title="http://onama.sbg.ac.at/ontology#StimulusRole">Rolle Stimulus</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+</dl>
+</div>
+<div class="entity" id="ExperiencerRole">
+<h4>Rolle Wahrnehmende/r<sup class="type-c" title="class">c</sup>
+
+</h4>
+<p>
+<strong>IRI:</strong> http://onama.sbg.ac.at/ontology#ExperiencerRole</p>
+<div class="info" type="description"> <p>Ein/e Wahrnehmende/r ist eine belebte Entität, die eine vom Prädiktat bezeichnete Sinneswahrnehmung oder einen psychischen Zustand erlebt.</p> </div><div class="citation" type="citation"> <p>"Wahrnehmende Person." (<span class="bibl">Eisenberg, Peter, Jörg Peters, Peter Gallmann, Cathrine Fabricius-Hansen, Damaris Nübling, Irmhild Bartz, Thomas A. Fritz und Reinhard Fiehler. 2009. Die Grammatik: Unentbehrlich für richtiges Deutsch. 8. Aufl. Der Duden in zwölf Bänden 4. Mannheim, Zürich</span>: 391) </p> <p> "Erfahrender – Die lebende Entität, die die Handlung oder das Ereignis erlebt, das durch das Prädikat bezeichnet wird." (<span class="bibl">Aarts, Bas. 2001. English syntax and argumentation. 2nd ed. Modern linguistics series. Basingstoke</span>: 94 [Übersetzung: ONAMA Project])</p> <p> "'Erfahrender' ist die semantische Rolle einer Entität (oder eines Referenten), die die Auswirkung einer Handlung empfängt, akzeptiert, erlebt oder erfährt." (https://glossary.sil.org/term/experiencer-semantic-role 18.07.2019 [Übersetzung: ONAMA Project])</p> </div>
+<dl class="description">
+<dt>has super-classes</dt>
+<dd>
+<a href="#ParticipatorRole" title="http://onama.sbg.ac.at/ontology#ParticipatorRole">Rolle
+                        Teilnehmende/r</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+</dl>
+</div>
+<div class="entity" id="TemporalityRole">
+<h4>Rolle Zeitlichkeit<sup class="type-c" title="class">c</sup>
+
+</h4>
+<p>
+<strong>IRI:</strong> http://onama.sbg.ac.at/ontology#TemporalityRole</p>
+<div class="info" type="description"> <p>Gibt den Zeitraum oder Zeitpunkt eines Geschehens an.</p> </div><div class="citation" type="citation"> <p>"Gibt einen Zeitraum, Zeitpunkt o.ä. an, den eine Handlung oder ein Ereignis umfasst. Temporaladverbiale; Adverbiale der Zeit." (<span class="bibl">Eisenberg, Peter, Jörg Peters, Peter Gallmann, Cathrine Fabricius-Hansen, Damaris Nübling, Irmhild Bartz, Thomas A. Fritz und Reinhard Fiehler. 2009. Die Grammatik: Unentbehrlich für richtiges Deutsch. 8. Aufl. Der Duden in zwölf Bänden 4. Mannheim, Zürich</span>: 784).</p> </div>
+<dl class="description">
+<dt>has super-classes</dt>
+<dd>
+<a href="#SemanticRole" title="http://onama.sbg.ac.at/ontology#SemanticRole">Semantische Rolle</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+</dl>
+</div>
+<div class="entity" id="WitnessRole">
+<h4>Rolle Zeuge/Zeugin<sup class="type-c" title="class">c</sup>
+
+</h4>
+<p>
+<strong>IRI:</strong> http://onama.sbg.ac.at/ontology#WitnessRole</p>
+<div class="info" type="description"> <p>Zeuge/Zeugin – Die belebte Entität, die Zeuge der Handlung oder des Ereignisses ist, das durch das Prädikat bezeichnet wird.</p> </div>
+<dl class="description">
+<dt>has super-classes</dt>
+<dd>
+<a href="#ParticipatorRole" title="http://onama.sbg.ac.at/ontology#ParticipatorRole">Rolle
+                        Teilnehmende/r</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+</dl>
+</div>
+<div class="entity" id="GoalRole">
+<h4>Rolle Ziel<sup class="type-c" title="class">c</sup>
+
+</h4>
+<p>
+<strong>IRI:</strong> http://onama.sbg.ac.at/ontology#GoalRole</p>
+<div class="info" type="description"> <p>Ziel – Der Ort oder die Entität, in deren Richtung sich etwas bewegt.</p> </div><div class="citation" type="citation"> <p>"Ziel ist die semantische Rolle des: Ortes, zu dem sich etwas bewegt; Dinges, auf das eine Handlung gerichtet ist." (https://glossary.sil.org/term/goal-semantic-role 18.07.19 [Übersetzung: ONAMA Project])</p> <p> "Ziel – Der Ort oder die Entität, in deren Richtung sich etwas bewegt." (<span class="bibl">Aarts, Bas. 2001. English syntax and argumentation. 2nd ed. Modern linguistics series. Basingstoke</span>: 94 [Übersetzung: ONAMA Project])</p> </div>
+<dl class="description">
+<dt>has super-classes</dt>
+<dd>
+<a href="#LocalisationRole" title="http://onama.sbg.ac.at/ontology#LocalisationRole">Rolle
+                        Lokalisierung</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+</dl>
+</div>
+<div class="entity" id="Collection">
+<h4>Sammlung<sup class="type-c" title="class">c</sup>
+
+</h4>
+<p>
+<strong>IRI:</strong> http://onama.sbg.ac.at/ontology#Collection</p>
+<div class="info" type="description"> <p>Benennt den textlichen oder bildlichen Kontext, aus welchem das Narrativ stammt.</p> </div>
+<dl class="description">
+<dt>has super-classes</dt>
+<dd>
+<span class="dotted" title="http://erlangen-crm.org/current/E28_Conceptual_Object">e28 conceptual
+                        object</span>
+</dd>
+<dt>is in domain of</dt>
+<dd>
+<a href="#firstInCollection" title="http://onama.sbg.ac.at/ontology#firstInCollection">erstes
+                        Element in einer Sammlung</a>
+<sup class="type-op" title="object property">op</sup>, <a href="#hasSigil" title="http://onama.sbg.ac.at/ontology#hasSigil">hat MHDBDB Sigle</a>
+<sup class="type-dp" title="data property">dp</sup>, <a href="#hasMhdbdbSigilURL" title="http://onama.sbg.ac.at/ontology#hasMhdbdbSigilURL">hat URL auf MHDBDB Sigle</a>
+<sup class="type-dp" title="data property">dp</sup>
+</dd>
+<dt>is in range of</dt>
+<dd>
+<a href="#partOfCollection" title="http://onama.sbg.ac.at/ontology#partOfCollection">Teil einer
+                        Sammlung</a>
+<sup class="type-op" title="object property">op</sup>
+</dd>
+</dl>
+</div>
+<div class="entity" id="SemanticRole">
+<h4>Semantische Rolle<sup class="type-c" title="class">c</sup>
+
+</h4>
+<p>
+<strong>IRI:</strong> http://onama.sbg.ac.at/ontology#SemanticRole</p>
+<div class="info" type="description"> <p>Enthält die Informationen einer mit dem Narrativ verbundenen semantischen Rolle.</p> </div>
+<dl class="description">
+<dt>has super-classes</dt>
+<dd>
+<span class="dotted" title="http://www.w3.org/2004/02/skos/core#Concept">concept</span>, <span class="dotted" title="http://erlangen-crm.org/current/E28_Conceptual_Object">e28 conceptual
+                        object</span>
+</dd>
+<dt>has sub-classes</dt>
+<dd>
+<a href="#ActantRole" title="http://onama.sbg.ac.at/ontology#ActantRole">Rolle Aktant</a>
+<sup class="type-c" title="class">c</sup>, <a href="#InstrumentRole" title="http://onama.sbg.ac.at/ontology#InstrumentRole">Rolle Instrument</a>
+<sup class="type-c" title="class">c</sup>, <a href="#LocalisationRole" title="http://onama.sbg.ac.at/ontology#LocalisationRole">Rolle Lokalisierung</a>
+<sup class="type-c" title="class">c</sup>, <a href="#ModeRole" title="http://onama.sbg.ac.at/ontology#ModeRole">Rolle Modus</a>
+<sup class="type-c" title="class">c</sup>, <a href="#PredicativeRole" title="http://onama.sbg.ac.at/ontology#PredicativeRole">Rolle Prädikativ</a>
+<sup class="type-c" title="class">c</sup>, <a href="#TemporalityRole" title="http://onama.sbg.ac.at/ontology#TemporalityRole">Rolle Zeitlichkeit</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+<dt>is in domain of</dt>
+<dd>
+<a href="#hasActor" title="http://onama.sbg.ac.at/ontology#hasActor">hat Akteur</a>
+<sup class="type-op" title="object property">op</sup>, <a href="#hasThing" title="http://onama.sbg.ac.at/ontology#hasThing">hat Ding</a>
+<sup class="type-op" title="object property">op</sup>, <a href="#hasNarrative" title="http://onama.sbg.ac.at/ontology#hasNarrative">hat Narrativ</a>
+<sup class="type-op" title="object property">op</sup>, <a href="#hasPlace" title="http://onama.sbg.ac.at/ontology#hasPlace">hat Ort</a>
+<sup class="type-op" title="object property">op</sup>, <a href="#hasSceneNode" title="http://onama.sbg.ac.at/ontology#hasSceneNode">hat REALonline Szenengraphknoten</a>
+<sup class="type-dp" title="data property">dp</sup>, <a href="#hasTemporalEntity" title="http://onama.sbg.ac.at/ontology#hasTemporalEntity">hat zeitliche Entität
+                        (Geschehendes)</a>
+<sup class="type-op" title="object property">op</sup>, <a href="#hasTemporaryEntityFunction" title="http://onama.sbg.ac.at/ontology#hasTemporaryEntityFunction">hat zeitweilige
+                        Entitätsfunktion</a>
+<sup class="type-op" title="object property">op</sup>
+</dd>
+<dt>is in range of</dt>
+<dd>
+<a href="#hasSemanticRole" title="http://onama.sbg.ac.at/ontology#hasSemanticRole">hat semantische
+                        Rolle</a>
+<sup class="type-op" title="object property">op</sup>
+</dd>
+<dt>is disjoint with</dt>
+<dd>
+<a href="#Narrative" title="http://onama.sbg.ac.at/ontology#Narrative">Narrativ</a>
+<sup class="type-c" title="class">c</sup>, <a href="#PersistentItem" title="http://onama.sbg.ac.at/ontology#PersistentItem">Persistentes Objekt (Seiendes)</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+</dl>
+</div>
+<div class="entity" id="TextPassage">
+<h4>Textpassage<sup class="type-c" title="class">c</sup>
+
+</h4>
+<p>
+<strong>IRI:</strong> http://onama.sbg.ac.at/ontology#TextPassage</p>
+<div class="info" type="description"> <p>Bezeichnet einen Ausschnitt aus einem Text; beispielsweise in der Mittelhochdeutschen Begriffsdatenbank (MHDBDB).</p> </div>
+<dl class="description">
+<dt>has super-classes</dt>
+<dd>
+<span class="dotted" title="http://erlangen-crm.org/current/E54_Dimension">e54 dimension</span>
+</dd>
+<dt>is in domain of</dt>
+<dd>
+<a href="#toToken" title="http://onama.sbg.ac.at/ontology#toToken">bis Token</a>
+<sup class="type-dp" title="data property">dp</sup>, <a href="#fromToken" title="http://onama.sbg.ac.at/ontology#fromToken">von Token</a>
+<sup class="type-dp" title="data property">dp</sup>
+</dd>
+<dt>is in range of</dt>
+<dd>
+<a href="#hasTextPassage" title="http://onama.sbg.ac.at/ontology#hasTextPassage">hat
+                        Textpassage</a>
+<sup class="type-op" title="object property">op</sup>
+</dd>
+</dl>
+</div>
+<div class="entity" id="TextualRealisation">
+<h4>Textuelle Realisierung<sup class="type-c" title="class">c</sup>
+
+</h4>
+<p>
+<strong>IRI:</strong> http://onama.sbg.ac.at/ontology#TextualRealisation</p>
+<div class="info" type="description"> <p>Bezeichnet die konkrete Umsetzung eines Konzepts in einem Text.</p> </div>
+<dl class="description">
+<dt>has super-classes</dt>
+<dd>
+<a href="#Realisation" title="http://onama.sbg.ac.at/ontology#Realisation">Realisierung</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+<dt>is in domain of</dt>
+<dd>
+<a href="#hasTextPassage" title="http://onama.sbg.ac.at/ontology#hasTextPassage">hat
+                        Textpassage</a>
+<sup class="type-op" title="object property">op</sup>
+</dd>
+<dt>is disjoint with</dt>
+<dd>
+<a href="#VisualRealisation" title="http://onama.sbg.ac.at/ontology#VisualRealisation">Visuelle
+                        Realisierung</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+</dl>
+</div>
+<div class="entity" id="Animal">
+<h4>Tier<sup class="type-c" title="class">c</sup>
+
+</h4>
+<p>
+<strong>IRI:</strong> http://onama.sbg.ac.at/ontology#Animal</p>
+<div class="info" type="description"> <p>Bezeichnet ein Tier als Protagonisten eines Narrativs.</p> </div>
+<dl class="description">
+<dt>has super-classes</dt>
+<dd>
+<a href="#Actor" title="http://onama.sbg.ac.at/ontology#Actor">Akteur</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+</dl>
+</div>
+<div class="entity" id="Verb">
+<h4>Verb<sup class="type-c" title="class">c</sup>
+
+</h4>
+<p>
+<strong>IRI:</strong> http://onama.sbg.ac.at/ontology#Verb</p>
+<div class="info" type="description"> <p>Die Klasse "Verb" umfasst Handlungen, die die Zuweisung semantischer Rollen ermöglichen.</p> </div>
+<dl class="description">
+<dt>has super-classes</dt>
+<dd>
+<span class="dotted" title="http://www.w3.org/2004/02/skos/core#Concept">concept</span>, <span class="dotted" title="http://erlangen-crm.org/current/E28_Conceptual_Object">e28 conceptual
+                        object</span>
+</dd>
+<dt>is in range of</dt>
+<dd>
+<a href="#hasVerb" title="http://onama.sbg.ac.at/ontology#hasVerb">hat Verb</a>
+<sup class="type-op" title="object property">op</sup>
+</dd>
+</dl>
+</div>
+<div class="entity" id="VisualRealisation">
+<h4>Visuelle Realisierung<sup class="type-c" title="class">c</sup>
+
+</h4>
+<p>
+<strong>IRI:</strong> http://onama.sbg.ac.at/ontology#VisualRealisation</p>
+<div class="info" type="description"> <p>Bezeichnet die konkrete Umsetzung eines Konzepts in einem Bild.</p> </div>
+<dl class="description">
+<dt>has super-classes</dt>
+<dd>
+<a href="#Realisation" title="http://onama.sbg.ac.at/ontology#Realisation">Realisierung</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+<dt>is in domain of</dt>
+<dd>
+<a href="#depictedIn" title="http://onama.sbg.ac.at/ontology#depictedIn">abgebildet in</a>
+<sup class="type-dp" title="data property">dp</sup>, <a href="#hasRoWorkURL" title="http://onama.sbg.ac.at/ontology#hasRoWorkURL">hat Realonline Werk URL</a>
+<sup class="type-dp" title="data property">dp</sup>
+</dd>
+<dt>is disjoint with</dt>
+<dd>
+<a href="#TextualRealisation" title="http://onama.sbg.ac.at/ontology#TextualRealisation">Textuelle
+                        Realisierung</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+</dl>
+</div>
+<div class="entity" id="TemporalEntity">
+<h4>Zeitliche Entität (Geschehendes)<sup class="type-c" title="class">c</sup>
+
+</h4>
+<p>
+<strong>IRI:</strong> http://onama.sbg.ac.at/ontology#TemporalEntity</p>
+<div class="info" type="description"> <p>Diese Klasse umfasst Phasen, Ereignisse und andere zeitlich begrenzte Zustände; sie ist disjunkt von der Klasse "Persistentes Objekt (Seiendes)".</p> </div><div class="citation" type="citation"> <p>"Diese Klasse umfasst Phasen, Ereignisse und andere zeitlich begrenzte Zustände. In anderen Zusammenhängen werden diese Klassen auch ‚perdurants‘ genannt. Diese Klasse unterscheidet sich durch einen zeitlich begrenzten Zustand von der Klasse 'Persistentes Objekt (Seiendes)'". (http://www.cidoc-crm.org/sites/default/files/cidoccrm_end.pdf 18.07.19)</p> </div>
+<dl class="description">
+<dt>is in range of</dt>
+<dd>
+<a href="#hasTemporalEntity" title="http://onama.sbg.ac.at/ontology#hasTemporalEntity">hat
+                        zeitliche Entität (Geschehendes)</a>
+<sup class="type-op" title="object property">op</sup>
+</dd>
+<dt>is disjoint with</dt>
+<dd>
+<a href="#PersistentItem" title="http://onama.sbg.ac.at/ontology#PersistentItem">Persistentes
+                        Objekt (Seiendes)</a>
+<sup class="type-c" title="class">c</sup>, <a href="#Place" title="http://onama.sbg.ac.at/ontology#Place">Ort</a>
+<sup class="type-c" title="class">c</sup>, <a href="#TimeSpan" title="http://onama.sbg.ac.at/ontology#TimeSpan">Zeitspanne</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+</dl>
+</div>
+<div class="entity" id="TimeSpan">
+<h4>Zeitspanne<sup class="type-c" title="class">c</sup>
+
+</h4>
+<p>
+<strong>IRI:</strong> http://onama.sbg.ac.at/ontology#TimeSpan</p>
+<div class="info" type="description"> <p>Diese Klasse umfasst abstrakte zeitliche Umfänge, die einen Anfang, ein Ende und eine Dauer haben. </p> </div><div class="citation" type="citation"> <p>"Diese Klasse umfasst abstrakte zeitliche Umfänge im Sinn der Galiläischen Physik, die einen Anfang, ein Ende und eine Dauer haben. Die Klasse E52 Zeitspanne hat keine anderen semantischen Nebenbedeutungen. Zeitspannen werden benutzt, um den zeitlichen Umfang von Instanzen der Klasse E4 Phase und der Klasse E5 Ereignis und andere für eine gewisse Zeit gültige Phänomene zu definieren. Die Klasse E52 Zeitspanne kann von einer oder mehrerer Instanzen der Klasse E49 Zeitbenennung identifiziert werden. Da unser Wissen von Geschichte unvollkommen ist, können Instanzen der Klasse E52 Zeitspanne am besten als Annäherungen an die tatsächliche Dauer zeitlicher Entitäten verstanden werden. Die Eigenschaften der Klasse E52 Zeitspanne zielen darauf ab, diese Annäherungen zu präzisieren. Ein extremer Fall der Annäherung ist eine Instanz der Klasse E52 Zeitspanne, deren Anfang, Ende und Dauer unbekannt ist. Wird die Klasse E52 Zeitspanne in üblicher Weise für zwei Ereignisse benutzt, würde sie diese trotzdem als gleichzeitig definieren, auch wenn sonst nichts dazu bekannt ist." (http://www.cidoc-crm.org/sites/default/files/cidoccrm_end.pdf; http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span 18.07.19)</p> </div>
+<dl class="description">
+<dt>is disjoint with</dt>
+<dd>
+<a href="#PersistentItem" title="http://onama.sbg.ac.at/ontology#PersistentItem">Persistentes
+                        Objekt (Seiendes)</a>
+<sup class="type-c" title="class">c</sup>, <a href="#Place" title="http://onama.sbg.ac.at/ontology#Place">Ort</a>
+<sup class="type-c" title="class">c</sup>, <a href="#PersistentItem" title="http://onama.sbg.ac.at/ontology#PersistentItem">Persistentes Objekt (Seiendes)</a>
+<sup class="type-c" title="class">c</sup>, <a href="#Place" title="http://onama.sbg.ac.at/ontology#Place">Ort</a>
+<sup class="type-c" title="class">c</sup>, <a href="#TemporalEntity" title="http://onama.sbg.ac.at/ontology#TemporalEntity">Zeitliche Entität (Geschehendes)</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+</dl>
+</div>
+</div>
+<div id="objectproperties">
+<h3 class="list" id="properties">Objekt-Properties</h3>
+<ul class="hlist">
+<li>
+<a href="#narrower" title="http://onama.sbg.ac.at/ontology#narrower">enger</a>
+</li>
+<li>
+<a href="#firstInCollection" title="http://onama.sbg.ac.at/ontology#firstInCollection">erstes Element
+                     in einer Sammlung</a>
+</li>
+<li>
+<a href="#hasActor" title="http://onama.sbg.ac.at/ontology#hasActor">hat Akteur</a>
+</li>
+<li>
+<a href="#hasGeneralEntityFunction" title="http://onama.sbg.ac.at/ontology#hasGeneralEntityFunction">hat allgemeine
+                     Entitätsfunktion</a>
+</li>
+<li>
+<a href="#hasThing" title="http://onama.sbg.ac.at/ontology#hasThing">hat Ding</a>
+</li>
+<li>
+<a href="#hasEntityFunction" title="http://onama.sbg.ac.at/ontology#hasEntityFunction">hat
+                     Entitätsfunktion</a>
+</li>
+<li>
+<a href="#hasSupplementaryConcept" title="http://onama.sbg.ac.at/ontology#hasSupplementaryConcept">hat
+                     ergänzendes Konzept</a>
+</li>
+<li>
+<a href="#hasGNDEquivalent" title="http://onama.sbg.ac.at/ontology#hasGNDEquivalent">hat GND
+                     Äquivalent</a>
+</li>
+<li>
+<a href="#hasAction" title="http://onama.sbg.ac.at/ontology#hasAction">hat Handlung</a>
+</li>
+<li>
+<a href="#hasIconClassEquivalent" title="http://onama.sbg.ac.at/ontology#hasIconClassEquivalent">hat
+                     IconClass Äquivalent</a>
+</li>
+<li>
+<a href="#hasNarrative" title="http://onama.sbg.ac.at/ontology#hasNarrative">hat Narrativ</a>
+</li>
+<li>
+<a href="#hasPlace" title="http://onama.sbg.ac.at/ontology#hasPlace">hat Ort</a>
+</li>
+<li>
+<a href="#hasSemanticRole" title="http://onama.sbg.ac.at/ontology#hasSemanticRole">hat semantische
+                     Rolle</a>
+</li>
+<li>
+<a href="#hasTextPassage" title="http://onama.sbg.ac.at/ontology#hasTextPassage">hat Textpassage</a>
+</li>
+<li>
+<a href="#hasVerb" title="http://onama.sbg.ac.at/ontology#hasVerb">hat Verb</a>
+</li>
+<li>
+<a href="#hasRelatedIconClassEntry" title="http://onama.sbg.ac.at/ontology#hasRelatedIconClassEntry">hat verwandten IconClass
+                     Eintrag</a>
+</li>
+<li>
+<a href="#hasRelatedWikiDataEntry" title="http://onama.sbg.ac.at/ontology#hasRelatedWikiDataEntry">hat
+                     verwandten WikiData Eintrag</a>
+</li>
+<li>
+<a href="#hasWikiDataEquivalent" title="http://onama.sbg.ac.at/ontology#hasWikiDataEquivalent">hat
+                     WikiData Äquivalent</a>
+</li>
+<li>
+<a href="#hasTemporalEntity" title="http://onama.sbg.ac.at/ontology#hasTemporalEntity">hat zeitliche
+                     Entität (Geschehendes)</a>
+</li>
+<li>
+<a href="#hasTemporaryEntityFunction" title="http://onama.sbg.ac.at/ontology#hasTemporaryEntityFunction">hat zeitweilige
+                     Entitätsfunktion</a>
+</li>
+<li>
+<a href="#isRealisedAsSupplementaryNarrativeBy" title="http://onama.sbg.ac.at/ontology#isRealisedAsSupplementaryNarrativeBy">ist realisiert als
+                     ergänzendes Narrativ durch</a>
+</li>
+<li>
+<a href="#isRealisedBy" title="http://onama.sbg.ac.at/ontology#isRealisedBy">ist realisiert durch</a>
+</li>
+<li>
+<a href="#nextFabula" title="http://onama.sbg.ac.at/ontology#nextFabula">nächste Fabula</a>
+</li>
+<li>
+<a href="#next" title="http://onama.sbg.ac.at/ontology#next">nächstes</a>
+</li>
+<li>
+<a href="#nextSyuzhet" title="http://onama.sbg.ac.at/ontology#nextSyuzhet">nächstes Syuzhet</a>
+</li>
+<li>
+<a href="#occursSimultaneously" title="http://onama.sbg.ac.at/ontology#occursSimultaneously">passiert
+                     gleichzeitig</a>
+</li>
+<li>
+<a href="#realises" title="http://onama.sbg.ac.at/ontology#realises">realisiert</a>
+</li>
+<li>
+<a href="#realisesAsSupplementaryNarrative" title="http://onama.sbg.ac.at/ontology#realisesAsSupplementaryNarrative">realisiert als ergänzendes
+                     Narrativ</a>
+</li>
+<li>
+<a href="#isRelatedTo" title="http://onama.sbg.ac.at/ontology#isRelatedTo">steht in Beziehung mit</a>
+</li>
+<li>
+<a href="#partOfCollection" title="http://onama.sbg.ac.at/ontology#partOfCollection">Teil einer
+                     Sammlung</a>
+</li>
+<li>
+<a href="#narrowerTransitive" title="http://onama.sbg.ac.at/ontology#narrowerTransitive">transitiv
+                     enger</a>
+</li>
+<li>
+<a href="#broaderTransitive" title="http://onama.sbg.ac.at/ontology#broaderTransitive">transitiv
+                     umfassender</a>
+</li>
+<li>
+<a href="#broader" title="http://onama.sbg.ac.at/ontology#broader">umfassender</a>
+</li>
+<li>
+<a href="#previous" title="http://onama.sbg.ac.at/ontology#previous">vorhergehend</a>
+</li>
+<li>
+<a href="#previousFabula" title="http://onama.sbg.ac.at/ontology#previousFabula">vorhergehende
+                     Fabula</a>
+</li>
+<li>
+<a href="#previousSyuzhet" title="http://onama.sbg.ac.at/ontology#previousSyuzhet">vorhergehendes
+                     Syuzhet</a>
+</li>
+</ul>
+<div class="entity" id="narrower">
+<h4>enger<sup class="type-op" title="object property">op</sup>
+
+</h4>
+<p>
+<strong>IRI:</strong> http://onama.sbg.ac.at/ontology#narrower</p>
+<div class="info" type="description"> <p>Diese Kante verbindet ein Narrativ-Konzept mit einem weiteren Narrativ-Konzept, das als Teil des ersten betrachtet werden kann.</p> </div><div class="comment" type="comment"> <p>Diese Kante findet Entsprechung in skos:narrowMatch, die verwendet wird, um eine hierarchische Abbildungsverbindung zwischen zwei Konzepten anzugeben. (https://www.w3.org/TR/2009/REC-skos-reference-20090818/#mapping 18.07.19)</p> </div>
+<div class="description">
+<dl>
+<dt>has super-properties</dt>
+<dd>
+<a href="#narrowerTransitive" title="http://onama.sbg.ac.at/ontology#narrowerTransitive">transitiv enger</a>
+<sup class="type-op" title="object property">op</sup>
+</dd>
+<dt>has domain</dt>
+<dd>
+<a href="#Concept" title="http://onama.sbg.ac.at/ontology#Concept">Konzept</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+<dt>has range</dt>
+<dd>
+<a href="#Concept" title="http://onama.sbg.ac.at/ontology#Concept">Konzept</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+<dt>is inverse of</dt>
+<dd>
+<a href="#broader" title="http://onama.sbg.ac.at/ontology#broader">umfassender</a>
+<sup class="type-op" title="object property">op</sup>
+</dd>
+</dl>
+</div>
+</div>
+<div class="entity" id="firstInCollection">
+<h4>erstes Element in einer Sammlung<sup class="type-op" title="object property">op</sup>
+
+</h4>
+<p>
+<strong>IRI:</strong> http://onama.sbg.ac.at/ontology#firstInCollection</p>
+<div class="info" type="description"> <p>Diese Relation verbindet eine Sammlung mit dem ersten Narrativ (Realisierung) in der Sammlung.</p> </div>
+<div class="description">
+<dl>
+<dt>has super-properties</dt>
+<dd>
+<span class="dotted" title="http://www.w3.org/2002/07/owl#topObjectProperty">top object
+                           property</span>
+</dd>
+<dt>has domain</dt>
+<dd>
+<a href="#Collection" title="http://onama.sbg.ac.at/ontology#Collection">Sammlung</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+<dt>has range</dt>
+<dd>
+<a href="#Realisation" title="http://onama.sbg.ac.at/ontology#Realisation">Realisierung</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+</dl>
+</div>
+</div>
+<div class="entity" id="hasActor">
+<h4>hat Akteur<sup class="type-op" title="object property">op</sup>
+
+</h4>
+<p>
+<strong>IRI:</strong> http://onama.sbg.ac.at/ontology#hasActor</p>
+<div class="info" type="description"> <p>Diese Relation verbindet eine semantische Rolle mit dem Akteur, der diese Rolle besetzt.</p> </div>
+<div class="description">
+<dl>
+<dt>has super-properties</dt>
+<dd>
+<span class="dotted" title="http://www.w3.org/2002/07/owl#topObjectProperty">top object
+                           property</span>
+</dd>
+<dt>has domain</dt>
+<dd>
+<a href="#SemanticRole" title="http://onama.sbg.ac.at/ontology#SemanticRole">Semantische
+                           Rolle</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+<dt>has range</dt>
+<dd>
+<a href="#Actor" title="http://onama.sbg.ac.at/ontology#Actor">Akteur</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+</dl>
+</div>
+</div>
+<div class="entity" id="hasGeneralEntityFunction">
+<h4>hat allgemeine Entitätsfunktion<sup class="type-op" title="object property">op</sup>
+
+</h4>
+<p>
+<strong>IRI:</strong> http://onama.sbg.ac.at/ontology#hasGeneralEntityFunction</p>
+<div class="info" type="description"> <p>Diese Relation verbindet einen Akteur oder ein Ding mit einer allgemein zutreffenden Entitätsfunktion. </p> </div>
+<div class="description">
+<dl>
+<dt>has super-properties</dt>
+<dd>
+<a href="#hasEntityFunction" title="http://onama.sbg.ac.at/ontology#hasEntityFunction">hat
+                           Entitätsfunktion</a>
+<sup class="type-op" title="object property">op</sup>
+</dd>
+<dt>has domain</dt>
+<dd>
+<a href="#PersistentItem" title="http://onama.sbg.ac.at/ontology#PersistentItem">Persistentes
+                           Objekt (Seiendes)</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+<dt>has range</dt>
+<dd>
+<a href="#EntityFunction" title="http://onama.sbg.ac.at/ontology#EntityFunction">Entitätsfunktion</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+</dl>
+</div>
+</div>
+<div class="entity" id="hasThing">
+<h4>hat Ding<sup class="type-op" title="object property">op</sup>
+
+</h4>
+<p>
+<strong>IRI:</strong> http://onama.sbg.ac.at/ontology#hasThing</p>
+<div class="info" type="description"> <p>Diese Relation verbindet eine semantische Rolle mit einem intellektuellen Produkt oder physischen Ding, das diese Rolle besetzt.</p> </div>
+<div class="description">
+<dl>
+<dt>has super-properties</dt>
+<dd>
+<span class="dotted" title="http://www.w3.org/2002/07/owl#topObjectProperty">top object
+                           property</span>
+</dd>
+<dt>has domain</dt>
+<dd>
+<a href="#SemanticRole" title="http://onama.sbg.ac.at/ontology#SemanticRole">Semantische
+                           Rolle</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+<dt>has range</dt>
+<dd>
+<a href="#Thing" title="http://onama.sbg.ac.at/ontology#Thing">Ding</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+</dl>
+</div>
+</div>
+<div class="entity" id="hasEntityFunction">
+<h4>hat Entitätsfunktion<sup class="type-op" title="object property">op</sup>
+
+</h4>
+<p>
+<strong>IRI:</strong> http://onama.sbg.ac.at/ontology#hasEntityFunction</p>
+<div class="info" type="description"> <p>Diese Relation verbindet einen Akteur, ein Ding oder eine Semantische Rolle mit einer Entitätsfunktion. Bitte verwenden Sie eine der beiden Subproperties.</p> </div>
+<div class="description">
+<dl>
+<dt>has super-properties</dt>
+<dd>
+<span class="dotted" title="http://www.w3.org/2002/07/owl#topObjectProperty">top object
+                           property</span>
+</dd>
+<dt>has sub-properties</dt>
+<dd>
+<a href="#hasGeneralEntityFunction" title="http://onama.sbg.ac.at/ontology#hasGeneralEntityFunction">hat allgemeine
+                           Entitätsfunktion</a>
+<sup class="type-op" title="object property">op</sup>, <a href="#hasTemporaryEntityFunction" title="http://onama.sbg.ac.at/ontology#hasTemporaryEntityFunction">hat zeitweilige
+                           Entitätsfunktion</a>
+<sup class="type-op" title="object property">op</sup>
+</dd>
+<dt>has range</dt>
+<dd>
+<a href="#EntityFunction" title="http://onama.sbg.ac.at/ontology#EntityFunction">Entitätsfunktion</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+</dl>
+</div>
+</div>
+<div class="entity" id="hasSupplementaryConcept">
+<h4>hat ergänzendes Konzept<sup class="type-op" title="object property">op</sup>
+
+</h4>
+<p>
+<strong>IRI:</strong> http://onama.sbg.ac.at/ontology#hasSupplementaryConcept</p>
+<div class="info" type="description"> <p>Diese Kante verbindet ein Narrativ-Konzept mit einem ergänzenden Narrativ-Konzept. Ein ergänzendes Konzept ist ein Narrativ, das zusätzlich zur jeweiligen "Haupthandlung" geschildert wird.</p> </div>
+<div class="description">
+<dl>
+<dt>has super-properties</dt>
+<dd>
+<a href="#isRelatedTo" title="http://onama.sbg.ac.at/ontology#isRelatedTo">steht in Beziehung
+                           mit</a>
+<sup class="type-op" title="object property">op</sup>
+</dd>
+<dt>has domain</dt>
+<dd>
+<a href="#Concept" title="http://onama.sbg.ac.at/ontology#Concept">Konzept</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+<dt>has range</dt>
+<dd>
+<a href="#Concept" title="http://onama.sbg.ac.at/ontology#Concept">Konzept</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+</dl>
+</div>
+</div>
+<div class="entity" id="hasGNDEquivalent">
+<h4>hat GND Äquivalent<sup class="type-op" title="object property">op</sup>
+
+</h4>
+<p>
+<strong>IRI:</strong> http://onama.sbg.ac.at/ontology#hasGNDEquivalent</p>
+<div class="info" type="description"> <p>Diese Relation/diese Entität hat eine GND-Entsprechung.</p> </div>
+<div class="description">
+<dl>
+<dt>has super-properties</dt>
+<dd>
+<span class="dotted" title="http://www.w3.org/2002/07/owl#sameAs">same as</span>
+<sup class="type-op" title="object property">op</sup>
+</dd>
+<dt>has domain</dt>
+<dd>
+<a href="#Collection" title="http://onama.sbg.ac.at/ontology#Collection">Sammlung</a>
+<sup class="type-c" title="class">c</sup>
+<span class="logic">or</span>
+<a href="#Narrative" title="http://onama.sbg.ac.at/ontology#Narrative">Narrativ</a>
+<sup class="type-c" title="class">c</sup>
+<span class="logic">or</span>
+<a href="#PersistentItem" title="http://onama.sbg.ac.at/ontology#PersistentItem">Persistentes
+                           Objekt (Seiendes)</a>
+<sup class="type-c" title="class">c</sup>
+<span class="logic">or</span>
+<a href="#Place" title="http://onama.sbg.ac.at/ontology#Place">Ort</a>
+<sup class="type-c" title="class">c</sup>
+<span class="logic">or</span>
+<a href="#TemporalEntity" title="http://onama.sbg.ac.at/ontology#TemporalEntity">Zeitliche
+                           Entität (Geschehendes)</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+<dt>has range</dt>
+<dd>
+<span class="dotted" title="http://www.w3.org/2002/07/owl#Thing">thing</span>
+<sup class="type-c" title="class">c</sup>
+</dd>
+</dl>
+</div>
+</div>
+<div class="entity" id="hasAction">
+<h4>hat Handlung<sup class="type-op" title="object property">op</sup>
+
+</h4>
+<p>
+<strong>IRI:</strong> http://onama.sbg.ac.at/ontology#hasAction</p>
+<div class="info" type="description"> <p>Diese Relation verbindet ein Narrativ mit der Handlung, die im Narrativ stattfindet.</p> </div>
+<div class="description">
+<dl>
+<dt>has super-properties</dt>
+<dd>
+<span class="dotted" title="http://www.w3.org/2002/07/owl#topObjectProperty">top object
+                           property</span>
+</dd>
+<dt>has domain</dt>
+<dd>
+<a href="#Narrative" title="http://onama.sbg.ac.at/ontology#Narrative">Narrativ</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+<dt>has range</dt>
+<dd>
+<a href="#Action" title="http://onama.sbg.ac.at/ontology#Action">Handlung</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+</dl>
+</div>
+</div>
+<div class="entity" id="hasIconClassEquivalent">
+<h4>hat IconClass Äquivalent<sup class="type-op" title="object property">op</sup>
+
+</h4>
+<p>
+<strong>IRI:</strong> http://onama.sbg.ac.at/ontology#hasIconClassEquivalent</p>
+<div class="info" type="description"> <p>Diese Relation verbindet eine Entität mit einer IconClass-Entsprechung.</p> </div>
+<div class="description">
+<dl>
+<dt>has super-properties</dt>
+<dd>
+<span class="dotted" title="http://www.w3.org/2002/07/owl#sameAs">same as</span>
+<sup class="type-op" title="object property">op</sup>
+</dd>
+<dt>has domain</dt>
+<dd>
+<a href="#Narrative" title="http://onama.sbg.ac.at/ontology#Narrative">Narrativ</a>
+<sup class="type-c" title="class">c</sup>
+<span class="logic">or</span>
+<a href="#PersistentItem" title="http://onama.sbg.ac.at/ontology#PersistentItem">Persistentes
+                           Objekt (Seiendes)</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+</dl>
+</div>
+</div>
+<div class="entity" id="hasNarrative">
+<h4>hat Narrativ<sup class="type-op" title="object property">op</sup>
+
+</h4>
+<p>
+<strong>IRI:</strong> http://onama.sbg.ac.at/ontology#hasNarrative</p>
+<div class="info" type="description"> <p>Diese Relation verbindet eine semantische Rolle mit einem Narrativ.</p> </div>
+<div class="description">
+<dl>
+<dt>has super-properties</dt>
+<dd>
+<span class="dotted" title="http://www.w3.org/2002/07/owl#topObjectProperty">top object
+                           property</span>
+</dd>
+<dt>has domain</dt>
+<dd>
+<a href="#SemanticRole" title="http://onama.sbg.ac.at/ontology#SemanticRole">Semantische
+                           Rolle</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+<dt>has range</dt>
+<dd>
+<a href="#Narrative" title="http://onama.sbg.ac.at/ontology#Narrative">Narrativ</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+</dl>
+</div>
+</div>
+<div class="entity" id="hasPlace">
+<h4>hat Ort<sup class="type-op" title="object property">op</sup>
+
+</h4>
+<p>
+<strong>IRI:</strong> http://onama.sbg.ac.at/ontology#hasPlace</p>
+<div class="info" type="description"> <p>Diese Relation verbindet eine semantische Rolle, meistens vom Typ "Lokalisierung", mit einer Ortsangabe.</p> </div>
+<div class="description">
+<dl>
+<dt>has super-properties</dt>
+<dd>
+<span class="dotted" title="http://www.w3.org/2002/07/owl#topObjectProperty">top object
+                           property</span>
+</dd>
+<dt>has domain</dt>
+<dd>
+<a href="#SemanticRole" title="http://onama.sbg.ac.at/ontology#SemanticRole">Semantische
+                           Rolle</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+<dt>has range</dt>
+<dd>
+<a href="#Place" title="http://onama.sbg.ac.at/ontology#Place">Ort</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+</dl>
+</div>
+</div>
+<div class="entity" id="hasSemanticRole">
+<h4>hat semantische Rolle<sup class="type-op" title="object property">op</sup>
+
+</h4>
+<p>
+<strong>IRI:</strong> http://onama.sbg.ac.at/ontology#hasSemanticRole</p>
+<div class="info" type="description"> <p>Die grundlegende Beziehung zwischen einem Narrativ und dessen einzelnen "Bausteinen".</p> </div>
+<div class="description">
+<dl>
+<dt>has super-properties</dt>
+<dd>
+<span class="dotted" title="http://www.w3.org/2002/07/owl#topObjectProperty">top object
+                           property</span>
+</dd>
+<dt>has domain</dt>
+<dd>
+<a href="#Narrative" title="http://onama.sbg.ac.at/ontology#Narrative">Narrativ</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+<dt>has range</dt>
+<dd>
+<a href="#SemanticRole" title="http://onama.sbg.ac.at/ontology#SemanticRole">Semantische
+                           Rolle</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+</dl>
+</div>
+</div>
+<div class="entity" id="hasTextPassage">
+<h4>hat Textpassage<sup class="type-op" title="object property">op</sup>
+
+</h4>
+<p>
+<strong>IRI:</strong> http://onama.sbg.ac.at/ontology#hasTextPassage</p>
+<div class="info" type="description"> <p>Diese Relation verbindet ein textuell realisiertes Narrativ mit dem spezifischen Textausschnitt, der das Narrativ schildert, in der MHDBDB.</p> </div>
+<div class="description">
+<dl>
+<dt>has super-properties</dt>
+<dd>
+<span class="dotted" title="http://www.w3.org/2002/07/owl#topObjectProperty">top object
+                           property</span>
+</dd>
+<dt>has domain</dt>
+<dd>
+<a href="#TextualRealisation" title="http://onama.sbg.ac.at/ontology#TextualRealisation">Textuelle Realisierung</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+<dt>has range</dt>
+<dd>
+<a href="#TextPassage" title="http://onama.sbg.ac.at/ontology#TextPassage">Textpassage</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+</dl>
+</div>
+</div>
+<div class="entity" id="hasVerb">
+<h4>hat Verb<sup class="type-op" title="object property">op</sup>
+
+</h4>
+<p>
+<strong>IRI:</strong> http://onama.sbg.ac.at/ontology#hasVerb</p>
+<div class="info" type="description"> <p>Diese Relation verbindet eine Handlung mit dem entsprechenden Verb.</p> </div>
+<div class="description">
+<dl>
+<dt>has super-properties</dt>
+<dd>
+<span class="dotted" title="http://www.w3.org/2002/07/owl#topObjectProperty">top object
+                           property</span>
+</dd>
+<dt>has domain</dt>
+<dd>
+<a href="#Action" title="http://onama.sbg.ac.at/ontology#Action">Handlung</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+<dt>has range</dt>
+<dd>
+<a href="#Verb" title="http://onama.sbg.ac.at/ontology#Verb">Verb</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+</dl>
+</div>
+</div>
+<div class="entity" id="hasRelatedIconClassEntry">
+<h4>hat verwandten IconClass Eintrag<sup class="type-op" title="object property">op</sup>
+
+</h4>
+<p>
+<strong>IRI:</strong> http://onama.sbg.ac.at/ontology#hasRelatedIconClassEntry</p>
+<div class="info" type="description"> <p>Diese Relation verbindet eine Entität mit einem ähnlichen IconClass-Eintrag.</p> </div>
+<div class="description">
+<dl>
+<dt>has super-properties</dt>
+<dd>
+<span class="dotted" title="http://www.w3.org/2004/02/skos/core#relatedMatch">related
+                           match</span>
+</dd>
+<dt>has domain</dt>
+<dd>
+<a href="#Narrative" title="http://onama.sbg.ac.at/ontology#Narrative">Narrativ</a>
+<sup class="type-c" title="class">c</sup>
+<span class="logic">or</span>
+<a href="#PersistentItem" title="http://onama.sbg.ac.at/ontology#PersistentItem">Persistentes
+                           Objekt (Seiendes)</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+</dl>
+</div>
+</div>
+<div class="entity" id="hasRelatedWikiDataEntry">
+<h4>hat verwandten WikiData Eintrag<sup class="type-op" title="object property">op</sup>
+
+</h4>
+<p>
+<strong>IRI:</strong> http://onama.sbg.ac.at/ontology#hasRelatedWikiDataEntry</p>
+<div class="info" type="description"> <p>Die Relation "hasRelatedWikiDataEntry" wird verwendet, um auf einen ähnlichen WikiData-Eintrag zu verweisen.</p> </div>
+<div class="description">
+<dl>
+<dt>has super-properties</dt>
+<dd>
+<span class="dotted" title="http://www.w3.org/2004/02/skos/core#relatedMatch">related
+                           match</span>
+</dd>
+<dt>has domain</dt>
+<dd>
+<a href="#Collection" title="http://onama.sbg.ac.at/ontology#Collection">Sammlung</a>
+<sup class="type-c" title="class">c</sup>
+<span class="logic">or</span>
+<a href="#Narrative" title="http://onama.sbg.ac.at/ontology#Narrative">Narrativ</a>
+<sup class="type-c" title="class">c</sup>
+<span class="logic">or</span>
+<a href="#PersistentItem" title="http://onama.sbg.ac.at/ontology#PersistentItem">Persistentes
+                           Objekt (Seiendes)</a>
+<sup class="type-c" title="class">c</sup>
+<span class="logic">or</span>
+<a href="#Place" title="http://onama.sbg.ac.at/ontology#Place">Ort</a>
+<sup class="type-c" title="class">c</sup>
+<span class="logic">or</span>
+<a href="#TemporalEntity" title="http://onama.sbg.ac.at/ontology#TemporalEntity">Zeitliche
+                           Entität (Geschehendes)</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+</dl>
+</div>
+</div>
+<div class="entity" id="hasWikiDataEquivalent">
+<h4>hat WikiData Äquivalent<sup class="type-op" title="object property">op</sup>
+
+</h4>
+<p>
+<strong>IRI:</strong> http://onama.sbg.ac.at/ontology#hasWikiDataEquivalent</p>
+<div class="info" type="description"> <p>Diese Relation verbindet eine Entität mit einer WikiData-Entsprechung.</p> </div>
+<div class="description">
+<dl>
+<dt>has super-properties</dt>
+<dd>
+<span class="dotted" title="http://www.w3.org/2002/07/owl#sameAs">same as</span>
+<sup class="type-op" title="object property">op</sup>
+</dd>
+<dt>has domain</dt>
+<dd>
+<a href="#Collection" title="http://onama.sbg.ac.at/ontology#Collection">Sammlung</a>
+<sup class="type-c" title="class">c</sup>
+<span class="logic">or</span>
+<a href="#Narrative" title="http://onama.sbg.ac.at/ontology#Narrative">Narrativ</a>
+<sup class="type-c" title="class">c</sup>
+<span class="logic">or</span>
+<a href="#PersistentItem" title="http://onama.sbg.ac.at/ontology#PersistentItem">Persistentes
+                           Objekt (Seiendes)</a>
+<sup class="type-c" title="class">c</sup>
+<span class="logic">or</span>
+<a href="#Place" title="http://onama.sbg.ac.at/ontology#Place">Ort</a>
+<sup class="type-c" title="class">c</sup>
+<span class="logic">or</span>
+<a href="#TemporalEntity" title="http://onama.sbg.ac.at/ontology#TemporalEntity">Zeitliche
+                           Entität (Geschehendes)</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+</dl>
+</div>
+</div>
+<div class="entity" id="hasTemporalEntity">
+<h4>hat zeitliche Entität (Geschehendes)<sup class="type-op" title="object property">op</sup>
+
+</h4>
+<p>
+<strong>IRI:</strong> http://onama.sbg.ac.at/ontology#hasTemporalEntity</p>
+<div class="info" type="description"> <p>Diese Kante verbindet eine semantische Rolle mit einer zeitlichen Entität, die diese Rolle besetzt. </p> </div>
+<div class="description">
+<dl>
+<dt>has super-properties</dt>
+<dd>
+<span class="dotted" title="http://www.w3.org/2002/07/owl#topObjectProperty">top object
+                           property</span>
+</dd>
+<dt>has domain</dt>
+<dd>
+<a href="#SemanticRole" title="http://onama.sbg.ac.at/ontology#SemanticRole">Semantische
+                           Rolle</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+<dt>has range</dt>
+<dd>
+<a href="#TemporalEntity" title="http://onama.sbg.ac.at/ontology#TemporalEntity">Zeitliche
+                           Entität (Geschehendes)</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+</dl>
+</div>
+</div>
+<div class="entity" id="hasTemporaryEntityFunction">
+<h4>hat zeitweilige Entitätsfunktion<sup class="type-op" title="object property">op</sup>
+
+</h4>
+<p>
+<strong>IRI:</strong> http://onama.sbg.ac.at/ontology#hasTemporaryEntityFunction</p>
+<div class="info" type="description"> <p>Diese Relation verbindet einen Knoten vom Typ "Semantische Rolle" mit einer Entitätsfunktion. Die Funktion trifft also zeitweilig – für das Narrativ – auf den Rolleninhaber (Akteur oder Ding) zu. </p> </div>
+<div class="description">
+<dl>
+<dt>has super-properties</dt>
+<dd>
+<a href="#hasEntityFunction" title="http://onama.sbg.ac.at/ontology#hasEntityFunction">hat
+                           Entitätsfunktion</a>
+<sup class="type-op" title="object property">op</sup>
+</dd>
+<dt>has domain</dt>
+<dd>
+<a href="#SemanticRole" title="http://onama.sbg.ac.at/ontology#SemanticRole">Semantische
+                           Rolle</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+<dt>has range</dt>
+<dd>
+<a href="#EntityFunction" title="http://onama.sbg.ac.at/ontology#EntityFunction">Entitätsfunktion</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+</dl>
+</div>
+</div>
+<div class="entity" id="isRealisedAsSupplementaryNarrativeBy">
+<h4>ist realisiert als ergänzendes Narrativ durch<sup class="type-op" title="object property">op</sup>
+
+</h4>
+<p>
+<strong>IRI:</strong> http://onama.sbg.ac.at/ontology#isRealisedAsSupplementaryNarrativeBy</p>
+<div class="info" type="description"> <p>Diese Kante verbindet jene Konzepte, die eine "Haupthandlung" ergänzen, mit ihren Realisierungen.</p> </div><div class="comment" type="comment"> <p>Ergänzende Konzepte, die zusätzlich zur jeweiligen "Haupthandlung" geschildert werden, werden über die Kanten "is realised as supplementary narrative by" und umgekehrt "realises as supplementary narrative" mit ihren Realisierungen verbunden.</p> </div>
+<div class="description">
+<dl>
+<dt>has super-properties</dt>
+<dd>
+<a href="#isRealisedBy" title="http://onama.sbg.ac.at/ontology#isRealisedBy">ist realisiert
+                           durch</a>
+<sup class="type-op" title="object property">op</sup>
+</dd>
+<dt>has domain</dt>
+<dd>
+<a href="#Concept" title="http://onama.sbg.ac.at/ontology#Concept">Konzept</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+<dt>has range</dt>
+<dd>
+<a href="#Realisation" title="http://onama.sbg.ac.at/ontology#Realisation">Realisierung</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+<dt>is inverse of</dt>
+<dd>
+<a href="#realisesAsSupplementaryNarrative" title="http://onama.sbg.ac.at/ontology#realisesAsSupplementaryNarrative">realisiert als
+                           ergänzendes Narrativ</a>
+<sup class="type-op" title="object property">op</sup>
+</dd>
+</dl>
+</div>
+</div>
+<div class="entity" id="isRealisedBy">
+<h4>ist realisiert durch<sup class="type-op" title="object property">op</sup>
+
+</h4>
+<p>
+<strong>IRI:</strong> http://onama.sbg.ac.at/ontology#isRealisedBy</p>
+<div class="info" type="description"> <p>Das Narrativ ist realisiert durch ein spezifisches Werk der Literatur oder der bildenden Kunst; die Relation "is realised by" verbindet das Konzept eines Narrativs mit dessen Realisierung.</p> </div>
+<div class="description">
+<dl>
+<dt>has super-properties</dt>
+<dd>
+<span class="dotted" title="http://www.w3.org/2002/07/owl#topObjectProperty">top object
+                           property</span>
+</dd>
+<dt>has sub-properties</dt>
+<dd>
+<a href="#isRealisedAsSupplementaryNarrativeBy" title="http://onama.sbg.ac.at/ontology#isRealisedAsSupplementaryNarrativeBy">ist realisiert
+                           als ergänzendes Narrativ durch</a>
+<sup class="type-op" title="object property">op</sup>
+</dd>
+<dt>has domain</dt>
+<dd>
+<a href="#Concept" title="http://onama.sbg.ac.at/ontology#Concept">Konzept</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+<dt>has range</dt>
+<dd>
+<a href="#Realisation" title="http://onama.sbg.ac.at/ontology#Realisation">Realisierung</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+<dt>is inverse of</dt>
+<dd>
+<a href="#realises" title="http://onama.sbg.ac.at/ontology#realises">realisiert</a>
+<sup class="type-op" title="object property">op</sup>
+</dd>
+</dl>
+</div>
+</div>
+<div class="entity" id="nextFabula">
+<h4>nächste Fabula<sup class="type-op" title="object property">op</sup>
+
+</h4>
+<p>
+<strong>IRI:</strong> http://onama.sbg.ac.at/ontology#nextFabula</p>
+<div class="info" type="description"> <p>Diese Relation verweist auf Realisierungsebene von einem Narrativ auf das nächste Narrativ auf dem Fabula-Pfad.</p> </div>
+<div class="description">
+<dl>
+<dt>has super-properties</dt>
+<dd>
+<a href="#next" title="http://onama.sbg.ac.at/ontology#next">nächstes</a>
+<sup class="type-op" title="object property">op</sup>
+</dd>
+<dt>has domain</dt>
+<dd>
+<a href="#Realisation" title="http://onama.sbg.ac.at/ontology#Realisation">Realisierung</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+<dt>has range</dt>
+<dd>
+<a href="#Realisation" title="http://onama.sbg.ac.at/ontology#Realisation">Realisierung</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+<dt>is inverse of</dt>
+<dd>
+<a href="#previousFabula" title="http://onama.sbg.ac.at/ontology#previousFabula">vorhergehende
+                           Fabula</a>
+<sup class="type-op" title="object property">op</sup>
+</dd>
+</dl>
+</div>
+</div>
+<div class="entity" id="next">
+<h4>nächstes<sup class="type-op" title="object property">op</sup>
+
+</h4>
+<p>
+<strong>IRI:</strong> http://onama.sbg.ac.at/ontology#next</p>
+<div class="info" type="description"> <p>Diese Relation verweist auf Realisierungsebene von einem Narrativ auf das nächste Narrativ.</p> </div>
+<div class="description">
+<dl>
+<dt>has super-properties</dt>
+<dd>
+<a href="#isRelatedTo" title="http://onama.sbg.ac.at/ontology#isRelatedTo">steht in Beziehung
+                           mit</a>
+<sup class="type-op" title="object property">op</sup>
+</dd>
+<dt>has sub-properties</dt>
+<dd>
+<a href="#nextFabula" title="http://onama.sbg.ac.at/ontology#nextFabula">nächste Fabula</a>
+<sup class="type-op" title="object property">op</sup>, <a href="#nextSyuzhet" title="http://onama.sbg.ac.at/ontology#nextSyuzhet">nächstes Syuzhet</a>
+<sup class="type-op" title="object property">op</sup>
+</dd>
+<dt>has domain</dt>
+<dd>
+<a href="#Realisation" title="http://onama.sbg.ac.at/ontology#Realisation">Realisierung</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+<dt>has range</dt>
+<dd>
+<a href="#Realisation" title="http://onama.sbg.ac.at/ontology#Realisation">Realisierung</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+<dt>is inverse of</dt>
+<dd>
+<a href="#previous" title="http://onama.sbg.ac.at/ontology#previous">vorhergehend</a>
+<sup class="type-op" title="object property">op</sup>
+</dd>
+</dl>
+</div>
+</div>
+<div class="entity" id="nextSyuzhet">
+<h4>nächstes Syuzhet<sup class="type-op" title="object property">op</sup>
+
+</h4>
+<p>
+<strong>IRI:</strong> http://onama.sbg.ac.at/ontology#nextSyuzhet</p>
+<div class="info" type="description"> <p>Diese Relation verweist auf Realisierungsebene von einem Narrativ auf das nächste Narrativ auf dem Syuzhet-Pfad.</p> </div>
+<div class="description">
+<dl>
+<dt>has super-properties</dt>
+<dd>
+<a href="#next" title="http://onama.sbg.ac.at/ontology#next">nächstes</a>
+<sup class="type-op" title="object property">op</sup>
+</dd>
+<dt>has domain</dt>
+<dd>
+<a href="#Realisation" title="http://onama.sbg.ac.at/ontology#Realisation">Realisierung</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+<dt>has range</dt>
+<dd>
+<a href="#Realisation" title="http://onama.sbg.ac.at/ontology#Realisation">Realisierung</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+<dt>is inverse of</dt>
+<dd>
+<a href="#previousSyuzhet" title="http://onama.sbg.ac.at/ontology#previousSyuzhet">vorhergehendes Syuzhet</a>
+<sup class="type-op" title="object property">op</sup>
+</dd>
+</dl>
+</div>
+</div>
+<div class="entity" id="occursSimultaneously">
+<h4>passiert gleichzeitig<sup class="type-op" title="object property">op</sup>
+
+</h4>
+<p>
+<strong>IRI:</strong> http://onama.sbg.ac.at/ontology#occursSimultaneously</p>
+<div class="info" type="description"> <p>Diese Relation verbindet auf Realisierungsebene ein Narrativ mit einem anderen Narrativ, das gleichzeitig stattfindet.</p> </div>
+<div class="description">
+<dl>
+<dt>has super-properties</dt>
+<dd>
+<a href="#isRelatedTo" title="http://onama.sbg.ac.at/ontology#isRelatedTo">steht in Beziehung
+                           mit</a>
+<sup class="type-op" title="object property">op</sup>
+</dd>
+<dt>has domain</dt>
+<dd>
+<a href="#Realisation" title="http://onama.sbg.ac.at/ontology#Realisation">Realisierung</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+<dt>has range</dt>
+<dd>
+<a href="#Realisation" title="http://onama.sbg.ac.at/ontology#Realisation">Realisierung</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+</dl>
+</div>
+</div>
+<div class="entity" id="realises">
+<h4>realisiert<sup class="type-op" title="object property">op</sup>
+
+</h4>
+<p>
+<strong>IRI:</strong> http://onama.sbg.ac.at/ontology#realises</p>
+<div class="info" type="description"> <p>Diese Relation verbindet die Realisierung eines Narrativs mit dem Konzept dieses Narrativs.</p> </div>
+<div class="description">
+<dl>
+<dt>has super-properties</dt>
+<dd>
+<span class="dotted" title="http://www.w3.org/2002/07/owl#topObjectProperty">top object
+                           property</span>
+</dd>
+<dt>has sub-properties</dt>
+<dd>
+<a href="#realisesAsSupplementaryNarrative" title="http://onama.sbg.ac.at/ontology#realisesAsSupplementaryNarrative">realisiert als
+                           ergänzendes Narrativ</a>
+<sup class="type-op" title="object property">op</sup>
+</dd>
+<dt>has domain</dt>
+<dd>
+<a href="#Realisation" title="http://onama.sbg.ac.at/ontology#Realisation">Realisierung</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+<dt>has range</dt>
+<dd>
+<a href="#Concept" title="http://onama.sbg.ac.at/ontology#Concept">Konzept</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+<dt>is inverse of</dt>
+<dd>
+<a href="#isRealisedBy" title="http://onama.sbg.ac.at/ontology#isRealisedBy">ist realisiert
+                           durch</a>
+<sup class="type-op" title="object property">op</sup>
+</dd>
+</dl>
+</div>
+</div>
+<div class="entity" id="realisesAsSupplementaryNarrative">
+<h4>realisiert als ergänzendes Narrativ<sup class="type-op" title="object property">op</sup>
+
+</h4>
+<p>
+<strong>IRI:</strong> http://onama.sbg.ac.at/ontology#realisesAsSupplementaryNarrative</p>
+<div class="info" type="description"> <p>Diese Kante verbindet Narrativ-Realisierungen, die eine "Haupthandlung" ergänzen, mit ihren jeweiligen Konzepten.</p> </div><div class="comment" type="comment"> <p>Ergänzende Konzepte, die zusätzlich zur jeweiligen "Haupthandlung" geschildert werden, werden über die Properties "is realised as supplementary narrative by" und umgekehrt "realises as supplementary narrative" mit ihren Realisierungen verbunden.</p> </div>
+<div class="description">
+<dl>
+<dt>has super-properties</dt>
+<dd>
+<a href="#realises" title="http://onama.sbg.ac.at/ontology#realises">realisiert</a>
+<sup class="type-op" title="object property">op</sup>
+</dd>
+<dt>has domain</dt>
+<dd>
+<a href="#Realisation" title="http://onama.sbg.ac.at/ontology#Realisation">Realisierung</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+<dt>has range</dt>
+<dd>
+<a href="#Concept" title="http://onama.sbg.ac.at/ontology#Concept">Konzept</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+<dt>is inverse of</dt>
+<dd>
+<a href="#isRealisedAsSupplementaryNarrativeBy" title="http://onama.sbg.ac.at/ontology#isRealisedAsSupplementaryNarrativeBy">ist realisiert
+                           als ergänzendes Narrativ durch</a>
+<sup class="type-op" title="object property">op</sup>
+</dd>
+</dl>
+</div>
+</div>
+<div class="entity" id="isRelatedTo">
+<h4>steht in Beziehung mit<sup class="type-op" title="object property">op</sup>
+
+</h4>
+<p>
+<strong>IRI:</strong> http://onama.sbg.ac.at/ontology#isRelatedTo</p>
+<div class="info" type="description"> <p>Die grundlegende Relation, um eine Beziehung zwischen zwei Narrativen herzustellen.</p> </div>
+<div class="description">
+<dl>
+<dt>has super-properties</dt>
+<dd>
+<span class="dotted" title="http://www.w3.org/2002/07/owl#topObjectProperty">top object
+                           property</span>
+</dd>
+<dt>has sub-properties</dt>
+<dd>
+<a href="#hasSupplementaryConcept" title="http://onama.sbg.ac.at/ontology#hasSupplementaryConcept">hat ergänzendes Konzept</a>
+<sup class="type-op" title="object property">op</sup>, <a href="#next" title="http://onama.sbg.ac.at/ontology#next">nächstes</a>
+<sup class="type-op" title="object property">op</sup>, <a href="#occursSimultaneously" title="http://onama.sbg.ac.at/ontology#occursSimultaneously">passiert gleichzeitig</a>
+<sup class="type-op" title="object property">op</sup>, <a href="#narrowerTransitive" title="http://onama.sbg.ac.at/ontology#narrowerTransitive">transitiv enger</a>
+<sup class="type-op" title="object property">op</sup>, <a href="#broaderTransitive" title="http://onama.sbg.ac.at/ontology#broaderTransitive">transitiv umfassender</a>
+<sup class="type-op" title="object property">op</sup>, <a href="#previous" title="http://onama.sbg.ac.at/ontology#previous">vorhergehend</a>
+<sup class="type-op" title="object property">op</sup>
+</dd>
+</dl>
+</div>
+</div>
+<div class="entity" id="partOfCollection">
+<h4>Teil einer Sammlung<sup class="type-op" title="object property">op</sup>
+
+</h4>
+<p>
+<strong>IRI:</strong> http://onama.sbg.ac.at/ontology#partOfCollection</p>
+<div class="info" type="description"> <p>Diese Relation verweist von einer Narrativ-Realisierung auf die Sammlung, aus der das Narrativ stammt.</p> </div>
+<div class="description">
+<dl>
+<dt>has super-properties</dt>
+<dd>
+<span class="dotted" title="http://www.w3.org/2002/07/owl#topObjectProperty">top object
+                           property</span>
+</dd>
+<dt>has domain</dt>
+<dd>
+<a href="#Realisation" title="http://onama.sbg.ac.at/ontology#Realisation">Realisierung</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+<dt>has range</dt>
+<dd>
+<a href="#Collection" title="http://onama.sbg.ac.at/ontology#Collection">Sammlung</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+</dl>
+</div>
+</div>
+<div class="entity" id="narrowerTransitive">
+<h4>transitiv enger<sup class="type-op" title="object property">op</sup>
+
+</h4>
+<p>
+<strong>IRI:</strong> http://onama.sbg.ac.at/ontology#narrowerTransitive</p>
+<div class="info" type="description"> <p>Diese Relation verweist von einem Narrativ-Konzept auf sämtliche untergeordneten Narrativ-Konzepte.</p> </div>
+<div class="description">
+<p>
+<strong>has characteristics:</strong> transitive</p>
+<dl>
+<dt>has super-properties</dt>
+<dd>
+<a href="#isRelatedTo" title="http://onama.sbg.ac.at/ontology#isRelatedTo">steht in Beziehung
+                           mit</a>
+<sup class="type-op" title="object property">op</sup>
+</dd>
+<dt>has sub-properties</dt>
+<dd>
+<a href="#narrower" title="http://onama.sbg.ac.at/ontology#narrower">enger</a>
+<sup class="type-op" title="object property">op</sup>
+</dd>
+<dt>has domain</dt>
+<dd>
+<a href="#Concept" title="http://onama.sbg.ac.at/ontology#Concept">Konzept</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+<dt>has range</dt>
+<dd>
+<a href="#Concept" title="http://onama.sbg.ac.at/ontology#Concept">Konzept</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+<dt>is inverse of</dt>
+<dd>
+<a href="#broaderTransitive" title="http://onama.sbg.ac.at/ontology#broaderTransitive">transitiv
+                           umfassender</a>
+<sup class="type-op" title="object property">op</sup>
+</dd>
+</dl>
+</div>
+</div>
+<div class="entity" id="broaderTransitive">
+<h4>transitiv umfassender<sup class="type-op" title="object property">op</sup>
+
+</h4>
+<p>
+<strong>IRI:</strong> http://onama.sbg.ac.at/ontology#broaderTransitive</p>
+<div class="info" type="description"> <p>Diese Relation verbindet ein Konzept eines Narrativs mit sämtlichen übergeordneten Konzepten.</p> </div>
+<div class="description">
+<p>
+<strong>has characteristics:</strong> transitive</p>
+<dl>
+<dt>has super-properties</dt>
+<dd>
+<a href="#isRelatedTo" title="http://onama.sbg.ac.at/ontology#isRelatedTo">steht in Beziehung
+                           mit</a>
+<sup class="type-op" title="object property">op</sup>
+</dd>
+<dt>has sub-properties</dt>
+<dd>
+<a href="#broader" title="http://onama.sbg.ac.at/ontology#broader">umfassender</a>
+<sup class="type-op" title="object property">op</sup>
+</dd>
+<dt>has domain</dt>
+<dd>
+<a href="#Concept" title="http://onama.sbg.ac.at/ontology#Concept">Konzept</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+<dt>has range</dt>
+<dd>
+<a href="#Concept" title="http://onama.sbg.ac.at/ontology#Concept">Konzept</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+<dt>is inverse of</dt>
+<dd>
+<a href="#narrowerTransitive" title="http://onama.sbg.ac.at/ontology#narrowerTransitive">transitiv enger</a>
+<sup class="type-op" title="object property">op</sup>
+</dd>
+</dl>
+</div>
+</div>
+<div class="entity" id="broader">
+<h4>umfassender<sup class="type-op" title="object property">op</sup>
+
+</h4>
+<p>
+<strong>IRI:</strong> http://onama.sbg.ac.at/ontology#broader</p>
+<div class="info" type="description"> <p>Die Kante "umfassender" verweist von einem Konzept eines Narrativs auf das unmittelbar übergeordnete Konzept und zeigt damit an, dass ein Narrativ Teil eines anderen Narrativs ist.</p> </div><div class="comment" type="comment"> <p>Diese Eigenschaft findet Entsprechung in skos:broadMatch, die verwendet wird, um eine hierarchische Abbildungsverbindung zwischen zwei Konzepten anzugeben. (https://www.w3.org/TR/2009/REC-skos-reference-20090818/#mapping 18.17.19)</p> </div>
+<div class="description">
+<dl>
+<dt>has super-properties</dt>
+<dd>
+<a href="#broaderTransitive" title="http://onama.sbg.ac.at/ontology#broaderTransitive">transitiv
+                           umfassender</a>
+<sup class="type-op" title="object property">op</sup>
+</dd>
+<dt>has domain</dt>
+<dd>
+<a href="#Concept" title="http://onama.sbg.ac.at/ontology#Concept">Konzept</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+<dt>has range</dt>
+<dd>
+<a href="#Concept" title="http://onama.sbg.ac.at/ontology#Concept">Konzept</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+<dt>is inverse of</dt>
+<dd>
+<a href="#narrower" title="http://onama.sbg.ac.at/ontology#narrower">enger</a>
+<sup class="type-op" title="object property">op</sup>
+</dd>
+</dl>
+</div>
+</div>
+<div class="entity" id="previous">
+<h4>vorhergehend<sup class="type-op" title="object property">op</sup>
+
+</h4>
+<p>
+<strong>IRI:</strong> http://onama.sbg.ac.at/ontology#previous</p>
+<div class="info" type="description"> <p>Diese Relation verweist auf Realisierungsebene von einem Narrativ auf das vorhergehende Narrativ.</p> </div>
+<div class="description">
+<dl>
+<dt>has super-properties</dt>
+<dd>
+<a href="#isRelatedTo" title="http://onama.sbg.ac.at/ontology#isRelatedTo">steht in Beziehung
+                           mit</a>
+<sup class="type-op" title="object property">op</sup>
+</dd>
+<dt>has sub-properties</dt>
+<dd>
+<a href="#previousFabula" title="http://onama.sbg.ac.at/ontology#previousFabula">vorhergehende
+                           Fabula</a>
+<sup class="type-op" title="object property">op</sup>, <a href="#previousSyuzhet" title="http://onama.sbg.ac.at/ontology#previousSyuzhet">vorhergehendes Syuzhet</a>
+<sup class="type-op" title="object property">op</sup>
+</dd>
+<dt>has domain</dt>
+<dd>
+<a href="#Realisation" title="http://onama.sbg.ac.at/ontology#Realisation">Realisierung</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+<dt>has range</dt>
+<dd>
+<a href="#Realisation" title="http://onama.sbg.ac.at/ontology#Realisation">Realisierung</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+<dt>is inverse of</dt>
+<dd>
+<a href="#next" title="http://onama.sbg.ac.at/ontology#next">nächstes</a>
+<sup class="type-op" title="object property">op</sup>
+</dd>
+</dl>
+</div>
+</div>
+<div class="entity" id="previousFabula">
+<h4>vorhergehende Fabula<sup class="type-op" title="object property">op</sup>
+
+</h4>
+<p>
+<strong>IRI:</strong> http://onama.sbg.ac.at/ontology#previousFabula</p>
+<div class="info" type="description"> <p>Diese Relation verweist auf Realisierungsebene von einem Narrativ auf das vorhergehende Narrativ auf dem Fabula-Pfad.</p> </div>
+<div class="description">
+<dl>
+<dt>has super-properties</dt>
+<dd>
+<a href="#previous" title="http://onama.sbg.ac.at/ontology#previous">vorhergehend</a>
+<sup class="type-op" title="object property">op</sup>
+</dd>
+<dt>has domain</dt>
+<dd>
+<a href="#Realisation" title="http://onama.sbg.ac.at/ontology#Realisation">Realisierung</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+<dt>has range</dt>
+<dd>
+<a href="#Realisation" title="http://onama.sbg.ac.at/ontology#Realisation">Realisierung</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+<dt>is inverse of</dt>
+<dd>
+<a href="#nextFabula" title="http://onama.sbg.ac.at/ontology#nextFabula">nächste Fabula</a>
+<sup class="type-op" title="object property">op</sup>
+</dd>
+</dl>
+</div>
+</div>
+<div class="entity" id="previousSyuzhet">
+<h4>vorhergehendes Syuzhet<sup class="type-op" title="object property">op</sup>
+
+</h4>
+<p>
+<strong>IRI:</strong> http://onama.sbg.ac.at/ontology#previousSyuzhet</p>
+<div class="info" type="description"> <p>Diese Relation verweist auf Realisierungsebene von einem Narrativ auf das vorhergehende Narrativ auf dem Syuzhet-Pfad.</p> </div>
+<div class="description">
+<dl>
+<dt>has super-properties</dt>
+<dd>
+<a href="#previous" title="http://onama.sbg.ac.at/ontology#previous">vorhergehend</a>
+<sup class="type-op" title="object property">op</sup>
+</dd>
+<dt>has domain</dt>
+<dd>
+<a href="#Realisation" title="http://onama.sbg.ac.at/ontology#Realisation">Realisierung</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+<dt>has range</dt>
+<dd>
+<a href="#Realisation" title="http://onama.sbg.ac.at/ontology#Realisation">Realisierung</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+<dt>is inverse of</dt>
+<dd>
+<a href="#nextSyuzhet" title="http://onama.sbg.ac.at/ontology#nextSyuzhet">nächstes Syuzhet</a>
+<sup class="type-op" title="object property">op</sup>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<div id="dataproperties">
+<h3 class="list" id="dataproperties-headline">Data-Properties</h3>
+<ul class="hlist">
+<li>
+<a href="#depictedIn" title="http://onama.sbg.ac.at/ontology#depictedIn">abgebildet in</a>
+</li>
+<li>
+<a href="#toToken" title="http://onama.sbg.ac.at/ontology#toToken">bis Token</a>
+</li>
+<li>
+<a href="#http://www.w3.org/2004/02/skos/core#closeMatch" title="http://www.w3.org/2004/02/skos/core#closeMatch">Entsprechung mit großer Ähnlichkeit</a>
+</li>
+<li>
+<a href="#hasSigil" title="http://onama.sbg.ac.at/ontology#hasSigil">hat MHDBDB Sigle</a>
+</li>
+<li>
+<a href="#hasSceneNode" title="http://onama.sbg.ac.at/ontology#hasSceneNode">hat REALonline
+                     Szenengraphknoten</a>
+</li>
+<li>
+<a href="#hasRoWorkURL" title="http://onama.sbg.ac.at/ontology#hasRoWorkURL">hat Realonline Werk
+                     URL</a>
+</li>
+<li>
+<a href="#hasUrl" title="http://onama.sbg.ac.at/ontology#hasUrl">hat Url</a>
+</li>
+<li>
+<a href="#hasMhdbdbSigilURL" title="http://onama.sbg.ac.at/ontology#hasMhdbdbSigilURL">hat URL auf
+                     MHDBDB Sigle</a>
+</li>
+<li>
+<a href="#fromToken" title="http://onama.sbg.ac.at/ontology#fromToken">von Token</a>
+</li>
+</ul>
+<div class="entity" id="depictedIn">
+<h4>abgebildet in<sup class="type-dp" title="data property">dp</sup>
+
+</h4>
+<p>
+<strong>IRI:</strong> http://onama.sbg.ac.at/ontology#depictedIn</p>
+<div class="info" type="description"> <p>Diese Relation verbindet eine visuelle Realisierung mit dem Bild-Objekt, auf dem diese dargestellt ist, z.B. in REALonline.</p> </div>
+<div class="description">
+<dl>
+<dt>has super-properties</dt>
+<dd>
+<span class="dotted" title="http://www.w3.org/2002/07/owl#topDataProperty">top data
+                           property</span>
+</dd>
+<dt>has domain</dt>
+<dd>
+<a href="#VisualRealisation" title="http://onama.sbg.ac.at/ontology#VisualRealisation">Visuelle
+                           Realisierung</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+<dt>has range</dt>
+<dd>
+<span class="dotted" title="http://www.w3.org/2001/XMLSchema#anyURI">any u r i</span>
+</dd>
+</dl>
+</div>
+</div>
+<div class="entity" id="toToken">
+<h4>bis Token<sup class="type-dp" title="data property">dp</sup>
+
+</h4>
+<p>
+<strong>IRI:</strong> http://onama.sbg.ac.at/ontology#toToken</p>
+<div class="info" type="description"> <p>Diese Relation zeigt von einer Textpassage auf das letzte Token aus dieser Gruppe.</p> </div>
+<div class="description">
+<dl>
+<dt>has super-properties</dt>
+<dd>
+<span class="dotted" title="http://www.w3.org/2002/07/owl#topDataProperty">top data
+                           property</span>
+</dd>
+<dt>has domain</dt>
+<dd>
+<a href="#TextPassage" title="http://onama.sbg.ac.at/ontology#TextPassage">Textpassage</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+<dt>has range</dt>
+<dd>
+<span class="dotted" title="http://www.w3.org/2001/XMLSchema#string">string</span>
+</dd>
+</dl>
+</div>
+</div>
+<div class="entity" id="http://www.w3.org/2004/02/skos/core#closeMatch">
+<h4>Entsprechung mit großer Ähnlichkeit<sup class="type-dp" title="data property">dp</sup>
+
+</h4>
+<p>
+<strong>IRI:</strong> http://www.w3.org/2004/02/skos/core#closeMatch</p>
+<div class="info">
+<span class="markdown">Die Eigenschaft skos:closeMatch wird verwendet, um zwei Konzepte zu verknüpfen,
+                     die sich so ähnlich sind, dass sie in einigen Anwendungen zur Informationsbeschaffung austauschbar
+                     verwendet werden können.
+                     (https://www.w3.org/TR/2009/REC-skos-reference-20090818/#mapping)</span>
+</div>
+<div class="description">
+<dl>
+<dt>has super-properties</dt>
+<dd>
+<span class="dotted" title="http://www.w3.org/2002/07/owl#topDataProperty">top data
+                           property</span>
+</dd>
+</dl>
+</div>
+</div>
+<div class="entity" id="hasSigil">
+<h4>hat MHDBDB Sigle<sup class="type-dp" title="data property">dp</sup>
+
+</h4>
+<p>
+<strong>IRI:</strong> http://onama.sbg.ac.at/ontology#hasSigil</p>
+<div class="info" type="description"> <p>Diese Kante verbindet eine Sammlung mit einer Sigle in der MHDBDB.</p> </div>
+<div class="description">
+<dl>
+<dt>has super-properties</dt>
+<dd>
+<span class="dotted" title="http://www.w3.org/2002/07/owl#topDataProperty">top data
+                           property</span>
+</dd>
+<dt>has domain</dt>
+<dd>
+<a href="#Collection" title="http://onama.sbg.ac.at/ontology#Collection">Sammlung</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+<dt>has range</dt>
+<dd>
+<span class="dotted" title="http://www.w3.org/2001/XMLSchema#string">string</span>
+</dd>
+</dl>
+</div>
+</div>
+<div class="entity" id="hasSceneNode">
+<h4>hat REALonline Szenengraphknoten<sup class="type-dp" title="data property">dp</sup>
+
+</h4>
+<p>
+<strong>IRI:</strong> http://onama.sbg.ac.at/ontology#hasSceneNode</p>
+<div class="info" type="description"> <p>Referenz auf einen Knoten eines REALonline-Szenegraphen.</p> </div>
+<div class="description">
+<dl>
+<dt>has super-properties</dt>
+<dd>
+<span class="dotted" title="http://www.w3.org/2002/07/owl#topDataProperty">top data
+                           property</span>
+</dd>
+<dt>has domain</dt>
+<dd>
+<a href="#Action" title="http://onama.sbg.ac.at/ontology#Action">Handlung</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+<dd>
+<a href="#SemanticRole" title="http://onama.sbg.ac.at/ontology#SemanticRole">Semantische
+                           Rolle</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+<dt>has range</dt>
+<dd>
+<span class="dotted" title="http://www.w3.org/2001/XMLSchema#anyURI">any u r i</span>
+</dd>
+</dl>
+</div>
+</div>
+<div class="entity" id="hasRoWorkURL">
+<h4>hat Realonline Werk URL<sup class="type-dp" title="data property">dp</sup>
+
+</h4>
+<p>
+<strong>IRI:</strong> http://onama.sbg.ac.at/ontology#hasRoWorkURL</p>
+<div class="info" type="description"> <p>Verweis auf eine REALonline-Werk-URL.</p> </div>
+<div class="description">
+<dl>
+<dt>has super-properties</dt>
+<dd>
+<a href="#hasUrl" title="http://onama.sbg.ac.at/ontology#hasUrl">hat Url</a>
+<sup class="type-dp" title="data property">dp</sup>
+</dd>
+<dt>has domain</dt>
+<dd>
+<a href="#VisualRealisation" title="http://onama.sbg.ac.at/ontology#VisualRealisation">Visuelle
+                           Realisierung</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+<dt>has range</dt>
+<dd>
+<span class="dotted" title="http://www.w3.org/2001/XMLSchema#anyURI">any u r i</span>
+</dd>
+</dl>
+</div>
+</div>
+<div class="entity" id="hasUrl">
+<h4>hat Url<sup class="type-dp" title="data property">dp</sup>
+
+</h4>
+<p>
+<strong>IRI:</strong> http://onama.sbg.ac.at/ontology#hasUrl</p>
+<div class="info" type="description"> <p>Verweis auf eine URL.</p> </div>
+<div class="description">
+<dl>
+<dt>has super-properties</dt>
+<dd>
+<span class="dotted" title="http://www.w3.org/2002/07/owl#topDataProperty">top data
+                           property</span>
+</dd>
+<dt>has sub-properties</dt>
+<dd>
+<a href="#hasRoWorkURL" title="http://onama.sbg.ac.at/ontology#hasRoWorkURL">hat Realonline Werk
+                           URL</a>
+<sup class="type-dp" title="data property">dp</sup>, <a href="#hasMhdbdbSigilURL" title="http://onama.sbg.ac.at/ontology#hasMhdbdbSigilURL">hat URL auf MHDBDB Sigle</a>
+<sup class="type-dp" title="data property">dp</sup>
+</dd>
+</dl>
+</div>
+</div>
+<div class="entity" id="hasMhdbdbSigilURL">
+<h4>hat URL auf MHDBDB Sigle<sup class="type-dp" title="data property">dp</sup>
+
+</h4>
+<p>
+<strong>IRI:</strong> http://onama.sbg.ac.at/ontology#hasMhdbdbSigilURL</p>
+<div class="info" type="description"> <p>Verweis auf die URL zu einer MHDBDB Sigle.</p> </div>
+<div class="description">
+<dl>
+<dt>has super-properties</dt>
+<dd>
+<a href="#hasUrl" title="http://onama.sbg.ac.at/ontology#hasUrl">hat Url</a>
+<sup class="type-dp" title="data property">dp</sup>
+</dd>
+<dt>has domain</dt>
+<dd>
+<a href="#Collection" title="http://onama.sbg.ac.at/ontology#Collection">Sammlung</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+<dt>has range</dt>
+<dd>
+<span class="dotted" title="http://www.w3.org/2001/XMLSchema#anyURI">any u r i</span>
+</dd>
+</dl>
+</div>
+</div>
+<div class="entity" id="fromToken">
+<h4>von Token<sup class="type-dp" title="data property">dp</sup>
+
+</h4>
+<p>
+<strong>IRI:</strong> http://onama.sbg.ac.at/ontology#fromToken</p>
+<div class="info" type="description"> <p>Diese Relation zeigt von einer Textpassage auf das erste Token aus dieser Gruppe.</p> </div>
+<div class="description">
+<dl>
+<dt>has super-properties</dt>
+<dd>
+<span class="dotted" title="http://www.w3.org/2002/07/owl#topDataProperty">top data
+                           property</span>
+</dd>
+<dt>has domain</dt>
+<dd>
+<a href="#TextPassage" title="http://onama.sbg.ac.at/ontology#TextPassage">Textpassage</a>
+<sup class="type-c" title="class">c</sup>
+</dd>
+<dt>has range</dt>
+<dd>
+<span class="dotted" title="http://www.w3.org/2001/XMLSchema#string">string</span>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<div id="legend">
+<h2>Legende </h2>
+<div class="entity">
+<sup class="type-c" title="Classes">c</sup>: Classes <br/>
+<sup class="type-op" title="Object Properties">op</sup>: Objekt-Properties <br/>
+<sup class="type-dp" title="Data Properties">dp</sup>: Data-Properties <br/>
+<sup class="type-ni" title="Named Individuals">ni</sup>: Benannte Individuen
+            </div>
+</div>
+</div>
+<!--REFERENCES SECTION-->
+<div id="references">
+<div id="references">
+<h2 class="list" id="ref">Referenzen </h2>
+<span class="markdown">
+<ul>
+<li>Hinkelmanns, Peter; Landkammer, Miriam; Nicka, Isabella; Schwembacher, Manuel;
+                     Zeppezauer-Wachauer,
+                     Katharina (2020):
+                     Erzählerische Spielräume. Medienübergreifende Erforschung von Narrativen im
+                     Mittelalter mit ONAMA. In
+                     Christof Schöch,
+                     Digital Humanities im deutschsprachigen Raum (Eds.): DHd 2020 Spielräume. Digital Humanities
+                     zwischen
+                     Modellierung und
+                     Interpretation. Jahrestagung des Verbands Digital Humanities
+                     im
+                     deutschsprachigen Raum. Konferenzabstracts. Universität Paderborn, 02.03.2020-06.03.2020.
+                     Paderborn: Zenodo; Universität
+                     Paderborn,
+                     S. 131–135. Online verfügbar unter <a href="https://zenodo.org/record/3666690#.X3Hme2gzat-" target="_blank">https://zenodo.org/record/3666690#.X3Hme2gzat-</a>.</li>
+<li>
+                     Hinkelmanns, Peter; Schwembacher, Manuel (2020): ONAMA. Ontology Of Narratives Of The Middle Ages.
+                     dha
+                     go!es digital Day
+                     2020. [Online], 9/25/2020. Online verfügbar unter <a href="https://zenodo.org/record/4048035#.X3HqXmgzat8" target="_blank">https://zenodo.org/record/4048035#.X3HqXmgzat8</a>.
+                  </li>
+<li>
+                     Hinkelmanns, Peter; Landkammer, Miriam; Nicka, Isabella; Schwembacher, Manuel; Zeppezauer-Wachauer,
+                     Katharina (in
+                     press): Beyond the Plot. Der Vergleich mittelalterlicher Narrative im Semantic Web mit ONAMA. In
+                     Vienna
+                     Doctoral Academy
+                     „Medieval Academy“ (Ed.): Narrare – producere – ordinare. New Approaches to
+                     the Middle Ages. Wien
+                     (Vienna Philological
+                     and Cultural Studies, 1).
+                  </li>
+<li>
+                     Hinkelmanns, Peter; Landkammer, Miriam; Nicka, Isabella; Schwembacher, Manuel; Zeppezauer-Wachauer,
+                     Katharina (2021 [in
+                     preparation]): Needful Things. Die Relationen der Dinge in einer Ontologie mittelalterlicher
+                     Narrative.
+                     In MEMO - Medieval and
+                     Early Modern Material Culture Online (7). Online verfügbar unter <a href="https://memo.imareal.sbg.ac.at/" target="_blank">https://memo.imareal.sbg.ac.at/</a>.
+                  </li>
+</ul>
+</span>
+</div>
+</div>
+<div id="acknowledgements">
+<h2 class="list" id="ack">Danksagungen </h2>
+<p>
+            Die AutorInnen möchteb <a href="http://www.essepuntato.it/">Silvio Peroni</a> für die Entwicklung von
+            <a href="http://www.essepuntato.it/lode">LODE</a>, einer Live-OWL-Dokumentationsumgebung, die zur
+            Darstellung des Querverweis-Abschnitts dieses Dokuments verwendet wird,
+            und <a href="https://w3id.org/people/dgarijo">Daniel Garijo</a> für die Entwicklung von <a href="https://github.com/dgarijo/Widoco">Widoco</a>, dem Programm, das zur Erstellung der in dieser
+            Dokumentation verwendeten Vorlage verwendet wurde, danken.</p>
+</div>
+</div>
+</body>
+</html>
