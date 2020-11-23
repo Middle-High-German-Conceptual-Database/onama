@@ -3,6 +3,8 @@
 
 This repository contains all versions of the onama ontology.
 
+[![DOI](https://zenodo.org/badge/265243804.svg)](https://zenodo.org/badge/latestdoi/265243804)
+
 ## Ontology
 
 ONAMA – Ontology of Narratives of the Middle Ages enables the systematic comparison of the structures and building blocks of many narratives in medieval literature and images.
