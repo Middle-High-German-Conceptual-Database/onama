@@ -18,4 +18,4 @@ The ONAMA ontology was developed in the course of the project ONAMA - Ontology o
 [See documentation](http://onama.sbg.ac.at/en/ontology-2/).
 
 ## Bibliography
-Landkammer, Miriam; Hinkelmanns, Peter; Schwembacher, Manuel; Zeppezauer-Wachauer, Katharina; Nicka, Isabella (2020): ONAMA. Ontology of Narratives of the Middle Ages. University of Salzburg. Salzburg. DOI 10.5281/zenodo.4220348, Titel anhand dieser DOI in Citavi-Projekt übernehmen updated on 2020-10-05.
+Landkammer, Miriam; Hinkelmanns, Peter; Schwembacher, Manuel; Zeppezauer-Wachauer, Katharina; Nicka, Isabella (2020): ONAMA. Ontology of Narratives of the Middle Ages. Version 1.5. University of Salzburg. Salzburg. DOI 10.5281/zenodo.4285987, Titel anhand dieser DOI in Citavi-Projekt übernehmen updated on 2020-11-23.
