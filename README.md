@@ -3,7 +3,7 @@
 
 This repository contains all versions of the onama ontology.
 
-[![DOI](https://zenodo.org/badge/265243804.svg)](https://zenodo.org/badge/latestdoi/265243804)]
+[![DOI](https://zenodo.org/badge/265243804.svg)](https://zenodo.org/badge/latestdoi/265243804)
 
 ## Ontology
 
